@@ -1,0 +1,14 @@
+{
+ "schema": "moon-watch-scoreboard/1",
+ "entries": [],
+ "entry_fields": [
+  "window_id",
+  "forecast_lambda",
+  "band",
+  "observed",
+  "source",
+  "scored_utc"
+ ],
+ "submit": "Observed counts are entered by hand after a window, each with its public source (a campaign report or paper), the observer's hours and limiting magnitude; forecast_lambda = hours x the window's rate.",
+ "disclosure": "Computed by an AI build thread (Claude Opus 5.5, Anthropic) for Jonathan Carroll's ResearchJobs project; the model, data and gate are in the repository. Not reviewed by a lunar-impact specialist. Expected rates are model estimates, not observations."
+}

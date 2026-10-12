@@ -1,0 +1,411 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ResearchJobs//Moon Watch v1//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Moon Watch
+BEGIN:VEVENT
+UID:ORI-20261013@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261013T190000Z
+DTEND:20261018T160000Z
+SUMMARY:Moon Watch: Orionids (minor shower) window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2026-10-18T15:00 UTC: 30-40 cm 1.27/h (90 %: 0.10-15.2
+ 3)\; 20 cm 0.55/h (90 %: 0.05-6.65)\; 10 cm 0.20/h (90 %: 0.02-2.36). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:STA-20261101@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261101T210000Z
+DTEND:20261106T040000Z
+SUMMARY:Moon Watch: Southern Taurids (minor shower) window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2026-11-06T03:00 UTC: 30-40 cm 1.88/h (90 %: 0.20-17.
+ 50)\; 20 cm 0.82/h (90 %: 0.09-7.64)\; 10 cm 0.29/h (90 %: 0.03-2.71). Gat
+ e: A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threa
+ ds (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anth
+ ropic) for Jonathan Carroll's ResearchJobs project\; the model\, data and 
+ gate are in the repository. Not reviewed by a lunar-impact specialist. Exp
+ ected rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:STA-20261112@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261112T140000Z
+DTEND:20261117T120000Z
+SUMMARY:Moon Watch: Southern Taurids (minor shower) window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2026-11-12T14:00 UTC: 30-40 cm 1.49/h (90 %: 0.16-13.8
+ 8)\; 20 cm 0.65/h (90 %: 0.07-6.06)\; 10 cm 0.23/h (90 %: 0.03-2.15). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20261201@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261201T070000Z
+DTEND:20261205T190000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2026-12-05T18:00 UTC: 30-40 cm 0.25/h (90 %: 0.03-2.3
+ 4)\; 20 cm 0.11/h (90 %: 0.01-1.02)\; 10 cm 0.04/h (90 %: 0.00-0.36). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:GEM-20261212@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261212T110000Z
+DTEND:20261217T060000Z
+SUMMARY:Moon Watch: Geminids window (prime)
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2026-12-14T14:00 UTC: 30-40 cm 4.77/h (90 %: 0.51-44.3
+ 9)\; 20 cm 2.08/h (90 %: 0.22-19.38)\; 10 cm 0.74/h (90 %: 0.08-6.88). Gat
+ e: A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threa
+ ds (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anth
+ ropic) for Jonathan Carroll's ResearchJobs project\; the model\, data and 
+ gate are in the repository. Not reviewed by a lunar-impact specialist. Exp
+ ected rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:QUA-20261230@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20261230T200000Z
+DTEND:20270104T120000Z
+SUMMARY:Moon Watch: Quadrantids window (prime)
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-01-04T04:00 UTC: 30-40 cm 1.27/h (90 %: 0.11-15.
+ 32)\; 20 cm 0.56/h (90 %: 0.05-6.69)\; 10 cm 0.20/h (90 %: 0.02-2.37). Gat
+ e: A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threa
+ ds (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anth
+ ropic) for Jonathan Carroll's ResearchJobs project\; the model\, data and 
+ gate are in the repository. Not reviewed by a lunar-impact specialist. Exp
+ ected rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270111@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270111T060000Z
+DTEND:20270115T210000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-01-11T06:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.05
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270129@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270129T120000Z
+DTEND:20270203T070000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-02-03T06:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 4)\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270209@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270209T230000Z
+DTEND:20270214T080000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-02-09T23:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.04
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270228@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270228T060000Z
+DTEND:20270305T030000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-03-05T02:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 5)\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270311@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270311T120000Z
+DTEND:20270315T170000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-03-11T12:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.04
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270330@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270330T020000Z
+DTEND:20270403T220000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-04-03T21:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 5)\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270409@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270409T210000Z
+DTEND:20270413T230000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-04-09T21:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.05
+ )\; 20 cm 0.10/h (90 %: 0.01-0.90)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270428@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270428T210000Z
+DTEND:20270503T140000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-05-03T13:00 UTC: 30-40 cm 0.40/h (90 %: 0.04-3.6
+ 9)\; 20 cm 0.17/h (90 %: 0.02-1.61)\; 10 cm 0.06/h (90 %: 0.01-0.57). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:ETA-20270509@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270509T050000Z
+DTEND:20270513T050000Z
+SUMMARY:Moon Watch: eta Aquariids window (prime)
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-05-09T05:00 UTC: 30-40 cm 1.46/h (90 %: 0.12-17.5
+ 2)\; 20 cm 0.64/h (90 %: 0.05-7.65)\; 10 cm 0.23/h (90 %: 0.02-2.71). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270528@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270528T150000Z
+DTEND:20270602T030000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-06-02T02:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 5)\; 20 cm 0.10/h (90 %: 0.01-0.90)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270607@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270607T120000Z
+DTEND:20270611T110000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-06-07T12:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.04
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270627@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270627T060000Z
+DTEND:20270701T120000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-07-01T11:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 4)\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270706@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270706T180000Z
+DTEND:20270710T190000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-07-06T18:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.05
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SDA-20270726@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270726T180000Z
+DTEND:20270730T200000Z
+SUMMARY:Moon Watch: Southern delta Aquariids (minor shower) window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-07-30T19:00 UTC: 30-40 cm 0.95/h (90 %: 0.08-11.
+ 39)\; 20 cm 0.41/h (90 %: 0.03-4.97)\; 10 cm 0.15/h (90 %: 0.01-1.76). Gat
+ e: A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threa
+ ds (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anth
+ ropic) for Jonathan Carroll's ResearchJobs project\; the model\, data and 
+ gate are in the repository. Not reviewed by a lunar-impact specialist. Exp
+ ected rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:PER-20270805@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270805T010000Z
+DTEND:20270809T050000Z
+SUMMARY:Moon Watch: Perseids window (prime)
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-08-09T04:00 UTC: 30-40 cm 0.85/h (90 %: 0.07-10.2
+ 5)\; 20 cm 0.37/h (90 %: 0.03-4.47)\; 10 cm 0.13/h (90 %: 0.01-1.59). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270825@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270825T030000Z
+DTEND:20270829T030000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-08-29T02:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.0
+ 4)\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270903@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270903T100000Z
+DTEND:20270907T190000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-09-03T10:00 UTC: 30-40 cm 0.22/h (90 %: 0.02-2.05
+ )\; 20 cm 0.10/h (90 %: 0.01-0.89)\; 10 cm 0.03/h (90 %: 0.00-0.32). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20270923@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20270923T110000Z
+DTEND:20270927T110000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-09-27T10:00 UTC: 30-40 cm 0.32/h (90 %: 0.03-2.9
+ 4)\; 20 cm 0.14/h (90 %: 0.01-1.28)\; 10 cm 0.05/h (90 %: 0.01-0.46). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:SPO-20271002@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20271002T220000Z
+DTEND:20271007T120000Z
+SUMMARY:Moon Watch: Sporadic window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-10-02T22:00 UTC: 30-40 cm 0.44/h (90 %: 0.05-4.13
+ )\; 20 cm 0.19/h (90 %: 0.02-1.80)\; 10 cm 0.07/h (90 %: 0.01-0.64). Gate:
+  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
+  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthro
+ pic) for Jonathan Carroll's ResearchJobs project\; the model\, data and ga
+ te are in the repository. Not reviewed by a lunar-impact specialist. Expec
+ ted rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:STA-20271022@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20271022T180000Z
+DTEND:20271026T190000Z
+SUMMARY:Moon Watch: Southern Taurids (minor shower) window
+DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
+ ashes/h at best hour 2027-10-26T18:00 UTC: 30-40 cm 1.34/h (90 %: 0.14-12.
+ 47)\; 20 cm 0.58/h (90 %: 0.06-5.44)\; 10 cm 0.21/h (90 %: 0.02-1.93). Gat
+ e: A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threa
+ ds (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anth
+ ropic) for Jonathan Carroll's ResearchJobs project\; the model\, data and 
+ gate are in the repository. Not reviewed by a lunar-impact specialist. Exp
+ ected rates are model estimates\, not observations.
+END:VEVENT
+BEGIN:VEVENT
+UID:STA-20271101@moon-watch.researchjobs
+DTSTAMP:20261012T005829Z
+DTSTART:20271101T130000Z
+DTEND:20271106T080000Z
+SUMMARY:Moon Watch: Southern Taurids (minor shower) window
+DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
+ shes/h at best hour 2027-11-01T13:00 UTC: 30-40 cm 1.75/h (90 %: 0.19-16.3
+ 3)\; 20 cm 0.77/h (90 %: 0.08-7.13)\; 10 cm 0.27/h (90 %: 0.03-2.53). Gate
+ : A PASS\, B INCOMPLETE (not fully validated). Computed by AI build thread
+ s (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; Anthr
+ opic) for Jonathan Carroll's ResearchJobs project\; the model\, data and g
+ ate are in the repository. Not reviewed by a lunar-impact specialist. Expe
+ cted rates are model estimates\, not observations.
+END:VEVENT
+END:VCALENDAR

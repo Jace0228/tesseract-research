@@ -1,0 +1,6 @@
+title: Tesseract Research
+description: Moon impact probabilities and impact-flash forecasts, machine-checkable, every number traceable to a fetched source. AI-assisted research by Jonathan Carroll.
+theme: jekyll-theme-minimal
+markdown: kramdown
+exclude:
+  - README.md

@@ -1,11 +1,12 @@
 ---
 title: Moon Watch
 description: When to watch the Moon for meteoroid impact flashes and how many to expect, per city and telescope size.
+last_generated: "2026-10-12T21:01:19Z"
 ---
 
 # Moon Watch — when to watch the Moon for meteoroid impact flashes, and how many to expect
 
-_Generated 2026-10-12 00:58 UTC. Gate: geometry PASS, back-test INCOMPLETE — **forecast not fully validated**: v1.1 re-ran the gate with fetched data. Bar A: all 12 statements pass, including 7 measured from the TUM Geminids-2025 and Lyrids-2026 map images (lit fraction and night-side impact-capable fraction within 0.10, lit side exact); the maps' orientation is not stated, so sub-radiant angles were NOT scored. Bar B: 26 of 26 scorable hold-out sessions are inside their 90 % interval and pooled observed/expected is 220/208.8 = 1.05, but the log-normal sigma of the fit is 1.36 (bands about x9 wide each way; 11 of the passes are zero-count nights), the Geminid sessions are over-forecast (LUMIO 17 vs 99) and the sporadic background is under-forecast x4.7 against NELIOTA (145 vs 31): the pooled ratio is a cancellation. Banner kept pending review._
+_Generated 2026-10-12 21:01 UTC. Gate: geometry PASS, back-test INCOMPLETE — **forecast not fully validated**: v1.1 re-ran the gate with fetched data. Bar A: all 12 statements pass, including 7 measured from the TUM Geminids-2025 and Lyrids-2026 map images (lit fraction and night-side impact-capable fraction within 0.10, lit side exact); the maps' orientation is not stated, so sub-radiant angles were NOT scored. Bar B: 26 of 26 scorable hold-out sessions are inside their 90 % interval and pooled observed/expected is 220/208.8 = 1.05, but the log-normal sigma of the fit is 1.36 (bands about x9 wide each way; 11 of the passes are zero-count nights), the Geminid sessions are over-forecast (LUMIO 17 vs 99) and the sporadic background is under-forecast x4.7 against NELIOTA (145 vs 31): the pooled ratio is a cancellation. Banner kept pending review._
 
 ## Next prime window: Geminids window
 
@@ -32,6 +33,7 @@ _Generated 2026-10-12 00:58 UTC. Gate: geometry PASS, back-test INCOMPLETE — *
 
 | Window | UTC | Lit | Dark limb | 30-40 cm /h | 20 cm /h | 10 cm /h |
 |---|---|---|---|---|---|---|
+| Sporadic window | 2026-10-04 00 → 2026-10-07 17 | 10-45 % | east (trailing) | 0.44/h (90 %: 0.05-4.12) | 0.19/h (90 %: 0.02-1.80) | 0.07/h (90 %: 0.01-0.64) |
 | Orionids (minor shower) window | 2026-10-13 19 → 2026-10-18 16 | 10-50 % | west (leading) | 1.27/h (90 %: 0.10-15.23) | 0.55/h (90 %: 0.05-6.65) | 0.20/h (90 %: 0.02-2.36) |
 | Southern Taurids (minor shower) window | 2026-11-01 21 → 2026-11-06 04 | 10-50 % | east (trailing) | 1.88/h (90 %: 0.20-17.50) | 0.82/h (90 %: 0.09-7.64) | 0.29/h (90 %: 0.03-2.71) |
 | Southern Taurids (minor shower) window | 2026-11-12 14 → 2026-11-17 12 | 10-50 % | west (leading) | 1.49/h (90 %: 0.16-13.88) | 0.65/h (90 %: 0.07-6.06) | 0.23/h (90 %: 0.03-2.15) |
@@ -58,7 +60,7 @@ _Generated 2026-10-12 00:58 UTC. Gate: geometry PASS, back-test INCOMPLETE — *
 | Sporadic window | 2027-09-23 11 → 2027-09-27 11 | 10-50 % | east (trailing) | 0.32/h (90 %: 0.03-2.94) | 0.14/h (90 %: 0.01-1.28) | 0.05/h (90 %: 0.01-0.46) |
 | Sporadic window | 2027-10-02 22 → 2027-10-07 12 | 10-50 % | west (leading) | 0.44/h (90 %: 0.05-4.13) | 0.19/h (90 %: 0.02-1.80) | 0.07/h (90 %: 0.01-0.64) |
 | Southern Taurids (minor shower) window | 2027-10-22 18 → 2027-10-26 19 | 10-50 % | east (trailing) | 1.34/h (90 %: 0.14-12.47) | 0.58/h (90 %: 0.06-5.44) | 0.21/h (90 %: 0.02-1.93) |
-| Southern Taurids (minor shower) window | 2027-11-01 13 → 2027-11-06 08 | 10-50 % | west (leading) | 1.75/h (90 %: 0.19-16.33) | 0.77/h (90 %: 0.08-7.13) | 0.27/h (90 %: 0.03-2.53) |
+| Southern Taurids (minor shower) window | 2027-11-01 13 → 2027-11-03 16 | 10-26 % | west (leading) | 1.75/h (90 %: 0.19-16.33) | 0.77/h (90 %: 0.08-7.13) | 0.27/h (90 %: 0.03-2.53) |
 
 ## How the numbers are made
 

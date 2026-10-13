@@ -1,6 +1,6 @@
 {
  "schema": "lunar-sentry/1",
- "generated_utc": "2026-10-11T22:36:56Z",
+ "generated_utc": "2026-10-13T01:35:40Z",
  "gate_status": "PASS",
  "gate_note": "zero-reference case (gate amendment 1, 6:36 PM ET): 0 of 20,000 vs NASA 0, AND the stated 21,200 km miss reproduced to 0.15 % (21,232 km). Probability recovery rests on the Asteroids Earth gate (4/5 within x3 of Sentry) + sweep bar 1 on the Moon + bar 2 here. No nonzero lunar reference exists yet; the first one published is a mandatory re-gate before it is quoted. 6 approach(es) beyond the 100-year horizon are in the run results, not tabled (v0).",
  "method": "For every asteroid whose JPL close-approach table (CAD) puts its 3-sigma lunar miss distance within 10 effective lunar radii in the next 100 years, 20,000 orbits are drawn from the JPL Small-Body Database covariance and propagated with ASSIST/REBOUND (DE440 planets and 16 large asteroids). An impact is a sample whose Moon-centred two-body perigee is below 1737.4 km. A probability is quoted only when at least 10 samples hit (with its 95% Wilson interval); otherwise only an upper bound '< U' (95% Clopper-Pearson) is given, never a point estimate. Earth is propagated with the same samples as a control against JPL Sentry. Impact sites come from each impacting sample's hyperbola; flash brightness is a model calibrated once on the 2013-09-11 lunar flash.",
@@ -15,6 +15,11 @@
    "run_id": "20261011-2212Z_ls-v0",
    "role": "table",
    "objects": 26
+  },
+  {
+   "run_id": "20261012-2035Z_ls-geom-rerun",
+   "role": "table",
+   "objects": 20
   }
  ],
  "horizon_years": 100,
@@ -30,34 +35,32 @@
    },
    "approach_utc": "2119-07-30",
    "approach_jd": 2495218.800262081,
-   "stream_lo_jd": 2495208.005007524,
-   "stream_hi_jd": 2495305.633889334,
-   "p": 0.00065,
-   "p_lo": 0.0003799180580200702,
-   "p_hi": 0.0011118683512116193,
+   "stream_lo_jd": 2495205.4966110378,
+   "stream_hi_jd": 2495310.6180511736,
+   "p": 0.00055,
+   "p_lo": 0.00030714858193327043,
+   "p_hi": 0.00098467623450964,
    "how": "a",
-   "n_imp": 13,
-   "n_reach": 7637,
+   "n_imp": 11,
+   "n_reach": 7723,
    "N": 20000,
-   "near_side_frac": null,
-   "night_side_frac": null,
-   "watchable_frac": null,
+   "near_side_frac": 0.2727272727272727,
+   "night_side_frac": 0.0,
+   "watchable_frac": 0.0,
    "phase_deg": 99.97884355130275,
-   "v_impact_kms": 7.551190987897194,
-   "energy_mt": 0.030536604571075064,
-   "flash_peak_mag": -2.458631673833451,
+   "v_impact_kms": 7.551251147125395,
+   "energy_mt": 0.030537091134289682,
+   "flash_peak_mag": -2.458643206988424,
    "flash_class": "naked-eye",
    "earth_control": {
-    "our_p_hi": 0.00043830045339363695,
+    "our_p_hi": 0.0003611872030449162,
     "sentry_ip": 4.0188506e-05,
     "status": "consistent"
    },
-   "flags": [
-    "geometry pending re-run (ingested units carry no perigee state)"
-   ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
-   "geometry": "pending re-run",
+   "flags": [],
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
+   "geometry": "computed",
    "extra": {
     "cad_cd": "2119-Jul-30 07:12",
     "cad_dist_km": 370904.179385554,
@@ -66,75 +69,20 @@
      "earth_moon_km": 400071.29041561164,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -6.892748863231405,
-      -0.6078469385377611
+      -6.892766162963866,
+      -0.6078555884039912
      ],
-     "tau_s": 15.504786378127198,
+     "tau_s": 15.504868727586587,
      "v_inf_from": "impacting samples"
     },
+    "impact_latlon_median_deg": [
+     -40.84841023733644,
+     -110.46789302315321
+    ],
+    "latlon_frame": "Earth-facing orbit frame (x Moon->Earth, z orbit normal), not IAU selenographic",
     "v_impact_kms_range": [
-     7.550607425821662,
-     7.552241883197702
-    ]
-   }
-  },
-  {
-   "des": "2019 EH1",
-   "fullname": "(2019 EH1)",
-   "H": 30.12,
-   "d_m": {
-    "a0.05": 5.623930936398632,
-    "a0.14": 3.360941576052205,
-    "a0.25": 2.5150983749102775
-   },
-   "approach_utc": "2032-02-29",
-   "approach_jd": 2463292.240458444,
-   "stream_lo_jd": 2463288.805286364,
-   "stream_hi_jd": 2463298.0760124363,
-   "p": null,
-   "p_lo": null,
-   "p_hi": 0.0005833193489126621,
-   "how": "c",
-   "n_imp": 5,
-   "n_reach": 3026,
-   "N": 20000,
-   "near_side_frac": null,
-   "night_side_frac": null,
-   "watchable_frac": null,
-   "phase_deg": 38.188802744626905,
-   "v_impact_kms": 14.133602511103856,
-   "energy_mt": 0.0009490641795065926,
-   "flash_peak_mag": 0.027876980747169988,
-   "flash_class": "naked-eye",
-   "earth_control": {
-    "our_p_hi": 0.0001844269639618992,
-    "sentry_ip": 0.0,
-    "status": "consistent"
-   },
-   "flags": [
-    "geometry pending re-run (ingested units carry no perigee state)",
-    "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
-   ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
-   "geometry": "pending re-run",
-   "extra": {
-    "cad_cd": "2032-Feb-29 17:46",
-    "cad_dist_km": 85062.07344903439,
-    "cad_dist_min_km": 496.92068983202694,
-    "flash": {
-     "earth_moon_km": 395303.56429105264,
-     "eta": 0.003752752949370966,
-     "peak_mag_range": [
-      -3.1499692393614662,
-      1.2505262313982008
-     ],
-     "tau_s": 4.87480669905063,
-     "v_inf_from": "impacting samples"
-    },
-    "v_impact_kms_range": [
-     14.132910788453952,
-     14.134466195259021
+     7.550320009633464,
+     7.551878934805298
     ]
    }
   },
@@ -149,22 +97,22 @@
    },
    "approach_utc": "2044-11-09",
    "approach_jd": 2467929.42211814,
-   "stream_lo_jd": 2467925.3297193768,
-   "stream_hi_jd": 2467960.843963905,
+   "stream_lo_jd": 2467925.324027181,
+   "stream_hi_jd": 2467966.7056168905,
    "p": null,
    "p_lo": null,
-   "p_hi": 0.00043830045339363695,
+   "p_hi": 0.0005833193489126621,
    "how": "c",
-   "n_imp": 3,
-   "n_reach": 9132,
+   "n_imp": 5,
+   "n_reach": 9064,
    "N": 20000,
-   "near_side_frac": null,
-   "night_side_frac": null,
-   "watchable_frac": null,
+   "near_side_frac": 0.6,
+   "night_side_frac": 0.0,
+   "watchable_frac": 0.0,
    "phase_deg": 59.67250845056521,
-   "v_impact_kms": 7.561252093658061,
-   "energy_mt": 0.0006486004883041329,
-   "flash_peak_mag": 0.13932161571231608,
+   "v_impact_kms": 7.561368088470647,
+   "energy_mt": 0.0006486203884127985,
+   "flash_peak_mag": 0.13929940796152973,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -172,12 +120,11 @@
     "status": "consistent"
    },
    "flags": [
-    "geometry pending re-run (ingested units carry no perigee state)",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
-   "geometry": "pending re-run",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
+   "geometry": "computed",
    "extra": {
     "cad_cd": "2044-Nov-09 22:08",
     "cad_dist_km": 838017.829171671,
@@ -186,15 +133,148 @@
      "earth_moon_km": 366533.3984396375,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -2.900759345357269,
-      1.2930882368438215
+      -2.9007926569834486,
+      1.2930715810307318
      ],
-     "tau_s": 4.293893767805514,
+     "tau_s": 4.293937681884226,
      "v_inf_from": "impacting samples"
     },
+    "impact_latlon_median_deg": [
+     44.95646122547566,
+     -77.8289925572453
+    ],
+    "latlon_frame": "Earth-facing orbit frame (x Moon->Earth, z orbit normal), not IAU selenographic",
     "v_impact_kms_range": [
-     7.560921447762724,
-     7.56188589592166
+     7.560870530086449,
+     7.561499385096787
+    ]
+   }
+  },
+  {
+   "des": "2018 BL11",
+   "fullname": "(2018 BL11)",
+   "H": 28.2,
+   "d_m": {
+    "a0.05": 13.615700153859295,
+    "a0.14": 8.136937180005665,
+    "a0.25": 6.089126221056746
+   },
+   "approach_utc": "2120-01-23",
+   "approach_jd": 2495396.22954056,
+   "stream_lo_jd": 2495387.74413554,
+   "stream_hi_jd": 2495401.17993446,
+   "p": null,
+   "p_lo": null,
+   "p_hi": 0.0003611872030449162,
+   "how": "c",
+   "n_imp": 2,
+   "n_reach": 5609,
+   "N": 20000,
+   "near_side_frac": 1.0,
+   "night_side_frac": 0.0,
+   "watchable_frac": 0.0,
+   "phase_deg": 88.93207203765974,
+   "v_impact_kms": 12.455785094203716,
+   "energy_mt": 0.010460008773870244,
+   "flash_peak_mag": -1.7840733265439583,
+   "flash_class": "naked-eye",
+   "earth_control": {
+    "our_p_hi": 0.0001844269639618992,
+    "sentry_ip": 8.862727e-05,
+    "status": "consistent"
+   },
+   "flags": [
+    "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
+   ],
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
+   "geometry": "computed",
+   "extra": {
+    "cad_cd": "2120-Jan-23 17:31",
+    "cad_dist_km": 990991.463308178,
+    "cad_dist_min_km": 9745.166723984894,
+    "flash": {
+     "earth_moon_km": 381902.78400483285,
+     "eta": 0.003752752949370966,
+     "peak_mag_range": [
+      -5.830449935546078,
+      -0.12715888144618623
+     ],
+     "tau_s": 10.848496540597989,
+     "v_inf_from": "impacting samples"
+    },
+    "impact_latlon_median_deg": [
+     -35.35260912233498,
+     -61.57434498744711
+    ],
+    "latlon_frame": "Earth-facing orbit frame (x Moon->Earth, z orbit normal), not IAU selenographic",
+    "v_impact_kms_range": [
+     12.455762730386464,
+     12.455807458022484
+    ]
+   }
+  },
+  {
+   "des": "2019 EH1",
+   "fullname": "(2019 EH1)",
+   "H": 30.12,
+   "d_m": {
+    "a0.05": 5.623930936398632,
+    "a0.14": 3.360941576052205,
+    "a0.25": 2.5150983749102775
+   },
+   "approach_utc": "2032-02-29",
+   "approach_jd": 2463292.240458444,
+   "stream_lo_jd": 2463288.757352159,
+   "stream_hi_jd": 2463298.032431713,
+   "p": null,
+   "p_lo": null,
+   "p_hi": 0.0002785503321745113,
+   "how": "c",
+   "n_imp": 1,
+   "n_reach": 3122,
+   "N": 20000,
+   "near_side_frac": 0.0,
+   "night_side_frac": 1.0,
+   "watchable_frac": 0.0,
+   "phase_deg": 38.188802744626905,
+   "v_impact_kms": 14.135383759851935,
+   "energy_mt": 0.0009493034144656619,
+   "flash_peak_mag": 0.027694546071044178,
+   "flash_class": "naked-eye",
+   "earth_control": {
+    "our_p_hi": 0.0001844269639618992,
+    "sentry_ip": 0.0,
+    "status": "consistent"
+   },
+   "flags": [
+    "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
+   ],
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
+   "geometry": "computed",
+   "extra": {
+    "cad_cd": "2032-Feb-29 17:46",
+    "cad_dist_km": 85062.07344903439,
+    "cad_dist_min_km": 496.92068983202694,
+    "flash": {
+     "earth_moon_km": 395303.56429105264,
+     "eta": 0.003752752949370966,
+     "peak_mag_range": [
+      -3.1502428913756546,
+      1.2503894053911067
+     ],
+     "tau_s": 4.875216269596786,
+     "v_inf_from": "impacting samples"
+    },
+    "impact_latlon_median_deg": [
+     21.122826255375706,
+     -178.78942152761192
+    ],
+    "latlon_frame": "Earth-facing orbit frame (x Moon->Earth, z orbit normal), not IAU selenographic",
+    "v_impact_kms_range": [
+     14.135383759851935,
+     14.135383759851935
     ]
    }
   },
@@ -209,22 +289,22 @@
    },
    "approach_utc": "2029-10-25",
    "approach_jd": 2462434.918621111,
-   "stream_lo_jd": 2462433.4396606395,
-   "stream_hi_jd": 2462437.199794211,
+   "stream_lo_jd": 2462433.4083868084,
+   "stream_hi_jd": 2462436.998240214,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 5539,
+   "n_reach": 5520,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 32.75902644206584,
-   "v_impact_kms": 19.66790912603405,
-   "energy_mt": 0.0329842202490136,
-   "flash_peak_mag": -2.4903728309086084,
+   "v_impact_kms": 19.668719146660347,
+   "energy_mt": 0.032986937207767034,
+   "flash_peak_mag": -2.4904324509122753,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -235,8 +315,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2029-Oct-25 10:03",
@@ -246,10 +326,10 @@
      "earth_moon_km": 404530.22970937786,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -6.95239458403165,
-      -0.6256358137503738
+      -6.95248401403715,
+      -0.6256805287531243
      ],
-     "tau_s": 15.908440665404253,
+     "tau_s": 15.908877453966362,
      "v_inf_from": "stream encounters"
     }
    }
@@ -322,22 +402,22 @@
    },
    "approach_utc": "2034-05-05",
    "approach_jd": 2464088.490866183,
-   "stream_lo_jd": 2464086.023467267,
-   "stream_hi_jd": 2464099.5700672604,
+   "stream_lo_jd": 2464086.3768690093,
+   "stream_hi_jd": 2464101.5463330066,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 11944,
+   "n_reach": 11984,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 27.41810997452738,
-   "v_impact_kms": 6.067510721701943,
-   "energy_mt": 0.00284977741724405,
-   "flash_peak_mag": -0.7214332803967162,
+   "v_impact_kms": 6.070131103648897,
+   "energy_mt": 0.0028522394212318718,
+   "flash_peak_mag": -0.7220583427463316,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -348,8 +428,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2034-May-05 23:47",
@@ -359,10 +439,10 @@
      "earth_moon_km": 403868.9489321156,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.297208965906033,
-      0.7001807029546556
+      -4.298146559430457,
+      0.699711906192444
      ],
-     "tau_s": 7.032814872066364,
+     "tau_s": 7.034839572228631,
      "v_inf_from": "stream encounters"
     }
    }
@@ -378,22 +458,22 @@
    },
    "approach_utc": "2038-05-17",
    "approach_jd": 2465560.779081284,
-   "stream_lo_jd": 2465549.1547415033,
-   "stream_hi_jd": 2465566.142860795,
+   "stream_lo_jd": 2465551.285187267,
+   "stream_hi_jd": 2465567.048832748,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 10649,
+   "n_reach": 10564,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 21.469722991603756,
-   "v_impact_kms": 11.809276183456054,
-   "energy_mt": 0.06780104614009992,
-   "flash_peak_mag": -3.2692796296261584,
+   "v_impact_kms": 11.80790256279912,
+   "energy_mt": 0.06778527421646664,
+   "flash_peak_mag": -3.2691112335958463,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -404,8 +484,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2038-May-17 06:42",
@@ -415,10 +495,10 @@
      "earth_moon_km": 359318.5835937788,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -7.992076527021567,
-      -1.2741550403317414
+      -7.991823932976098,
+      -1.274028743309007
      ],
-     "tau_s": 20.22728856425411,
+     "tau_s": 20.225720014263427,
      "v_inf_from": "stream encounters"
     }
    }
@@ -434,22 +514,22 @@
    },
    "approach_utc": "2043-01-25",
    "approach_jd": 2467275.42926869,
-   "stream_lo_jd": 2467274.6838265946,
-   "stream_hi_jd": 2467275.886244873,
+   "stream_lo_jd": 2467274.686635745,
+   "stream_hi_jd": 2467275.887376798,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 12051,
+   "n_reach": 12038,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 8.969420490731428,
-   "v_impact_kms": 10.799121123897368,
-   "energy_mt": 0.0022058026814691474,
-   "flash_peak_mag": -0.6518404161996928,
+   "v_impact_kms": 10.796839827661074,
+   "energy_mt": 0.0022048708356666425,
+   "flash_peak_mag": -0.6515345706226991,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -460,8 +540,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2043-Jan-25 22:18",
@@ -471,10 +551,10 @@
      "earth_moon_km": 382893.1617977884,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.134912534797949,
-      0.7234217836961483
+      -4.1344537664324585,
+      0.7236511678788933
      ],
-     "tau_s": 6.457252345044241,
+     "tau_s": 6.456342923867107,
      "v_inf_from": "stream encounters"
     }
    }
@@ -490,22 +570,22 @@
    },
    "approach_utc": "2043-09-21",
    "approach_jd": 2467513.768776178,
-   "stream_lo_jd": 2467511.3209628384,
-   "stream_hi_jd": 2467516.9823623216,
+   "stream_lo_jd": 2467511.173892044,
+   "stream_hi_jd": 2467517.006325819,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 3787,
+   "n_reach": 3714,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 29.40715310302887,
-   "v_impact_kms": 14.503262828406136,
-   "energy_mt": 0.0020498461682786026,
-   "flash_peak_mag": -0.698388746852267,
+   "v_impact_kms": 14.510030442387066,
+   "energy_mt": 0.0020517596417374572,
+   "flash_peak_mag": -0.6990641010616734,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -516,8 +596,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2043-Sep-21 06:27",
@@ -527,10 +607,10 @@
      "earth_moon_km": 365723.4551841028,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.154923040534223,
-      0.6636045405854231
+      -4.155936071848333,
+      0.6630980249283687
      ],
-     "tau_s": 6.301335869572876,
+     "tau_s": 6.303295966109752,
      "v_inf_from": "stream encounters"
     }
    }
@@ -546,25 +626,25 @@
    },
    "approach_utc": "2045-11-30",
    "approach_jd": 2468315.015655502,
-   "stream_lo_jd": 2468312.96583809,
-   "stream_hi_jd": 2468317.5406424934,
+   "stream_lo_jd": 2468312.9056972633,
+   "stream_hi_jd": 2468317.775219732,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 2649,
+   "n_reach": 2539,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 78.17532053237896,
-   "v_impact_kms": 11.90954888814495,
-   "energy_mt": 0.0006927562598060733,
-   "flash_peak_mag": 0.11156166878462812,
+   "v_impact_kms": 11.951170773491492,
+   "energy_mt": 0.0006976068560103033,
+   "flash_peak_mag": 0.10651119986249755,
    "flash_class": "naked-eye",
    "earth_control": {
-    "our_p_hi": 0.0007880065010413351,
+    "our_p_hi": 0.00098467623450964,
     "sentry_ip": 0.000479403,
     "status": "consistent"
    },
@@ -572,8 +652,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2045-Nov-30 12:23",
@@ -583,10 +663,10 @@
      "earth_moon_km": 369909.90462287376,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -2.952355281864687,
-      1.2772462847059984
+      -2.959930985247883,
+      1.2734584330144005
      ],
-     "tau_s": 4.389203243827499,
+     "tau_s": 4.399423651602431,
      "v_inf_from": "stream encounters"
     }
    }
@@ -602,8 +682,8 @@
    },
    "approach_utc": "2047-02-12",
    "approach_jd": 2468753.771287912,
-   "stream_lo_jd": 2468751.7587026935,
-   "stream_hi_jd": 2468754.0479625743,
+   "stream_lo_jd": 2468751.902730797,
+   "stream_hi_jd": 2468754.0473223478,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
@@ -615,9 +695,9 @@
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 22.77686062531083,
-   "v_impact_kms": 3.7499208646298134,
-   "energy_mt": 0.004975469191470502,
-   "flash_peak_mag": -1.3487823394174656,
+   "v_impact_kms": 3.7498351819749716,
+   "energy_mt": 0.004975241823184949,
+   "flash_peak_mag": -1.3487492614489172,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -628,8 +708,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2047-Feb-12 06:31",
@@ -639,10 +719,10 @@
      "earth_moon_km": 364288.1290674925,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -5.1262439422335735,
-      0.17367460258730139
+      -5.126194325280752,
+      0.17369941106371276
      ],
-     "tau_s": 8.468442681479422,
+     "tau_s": 8.468313682950159,
      "v_inf_from": "stream encounters"
     }
    }
@@ -658,22 +738,22 @@
    },
    "approach_utc": "2048-10-18",
    "approach_jd": 2469367.814974762,
-   "stream_lo_jd": 2469358.8652845137,
-   "stream_hi_jd": 2469368.7366481633,
+   "stream_lo_jd": 2469359.1619028207,
+   "stream_hi_jd": 2469368.736801647,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 18293,
+   "n_reach": 18344,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 41.74992643039902,
-   "v_impact_kms": 5.852843493370038,
-   "energy_mt": 0.0020115167716824706,
-   "flash_peak_mag": -0.5909022826353171,
+   "v_impact_kms": 5.853060726290335,
+   "energy_mt": 0.0020116660925287343,
+   "flash_peak_mag": -0.5909560122500558,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -684,8 +764,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2048-Oct-18 07:34",
@@ -695,10 +775,10 @@
      "earth_moon_km": 381871.7834504926,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.040605232618418,
-      0.7676753329529462
+      -4.040685827040526,
+      0.7676350357418922
      ],
-     "tau_s": 6.26181296147649,
+     "tau_s": 6.261967901948651,
      "v_inf_from": "stream encounters"
     }
    }
@@ -714,8 +794,8 @@
    },
    "approach_utc": "2052-11-30",
    "approach_jd": 2470871.740903707,
-   "stream_lo_jd": 2470871.304060136,
-   "stream_hi_jd": 2470872.063741342,
+   "stream_lo_jd": 2470871.2902073883,
+   "stream_hi_jd": 2470872.0781199574,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
@@ -727,9 +807,9 @@
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 81.17195259703333,
-   "v_impact_kms": 8.292835244365474,
-   "energy_mt": 0.12770147402609522,
-   "flash_peak_mag": -3.584510060884103,
+   "v_impact_kms": 8.29232747703238,
+   "energy_mt": 0.1276858362737845,
+   "flash_peak_mag": -3.584421419184842,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -740,8 +820,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2052-Nov-30 05:47",
@@ -751,10 +831,10 @@
      "earth_moon_km": 383783.9112780798,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -8.536439887741572,
-      -1.474819006858655
+      -8.53630692519268,
+      -1.474752525584209
      ],
-     "tau_s": 24.97990842697092,
+     "tau_s": 24.978888742664978,
      "v_inf_from": "stream encounters"
     }
    }
@@ -770,22 +850,22 @@
    },
    "approach_utc": "2056-02-05",
    "approach_jd": 2472033.674476024,
-   "stream_lo_jd": 2472032.5343570937,
-   "stream_hi_jd": 2472034.3253722205,
+   "stream_lo_jd": 2472032.396869992,
+   "stream_hi_jd": 2472034.305353294,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 17840,
+   "n_reach": 17808,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 48.527861277095774,
-   "v_impact_kms": 8.52292259145143,
-   "energy_mt": 0.003235690127389235,
-   "flash_peak_mag": -1.0209138345265985,
+   "v_impact_kms": 8.522757851764453,
+   "energy_mt": 0.0032355650432009434,
+   "flash_peak_mag": -1.0208858526429592,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -796,8 +876,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2056-Feb-05 04:11",
@@ -807,10 +887,10 @@
      "earth_moon_km": 367053.76323338033,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.642652839359493,
-      0.42368180848656156
+      -4.642610866534033,
+      0.423702794899291
      ],
-     "tau_s": 7.336932324209282,
+     "tau_s": 7.336837780128085,
      "v_inf_from": "stream encounters"
     }
    }
@@ -826,25 +906,25 @@
    },
    "approach_utc": "2074-05-04",
    "approach_jd": 2478696.595378914,
-   "stream_lo_jd": 2478690.6108834753,
-   "stream_hi_jd": 2478697.3333618785,
+   "stream_lo_jd": 2478690.604812454,
+   "stream_hi_jd": 2478697.3607916236,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 12742,
+   "n_reach": 12634,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 93.1427374873858,
-   "v_impact_kms": 4.461433208747857,
-   "energy_mt": 0.0010179785500527233,
-   "flash_peak_mag": -0.06278299796120447,
+   "v_impact_kms": 4.459674243864532,
+   "energy_mt": 0.0010171760117386897,
+   "flash_peak_mag": -0.0622121355380901,
    "flash_class": "naked-eye",
    "earth_control": {
-    "our_p_hi": 0.006022262892780206,
+    "our_p_hi": 0.00580264623555638,
     "sentry_ip": 0.0048201120000000005,
     "status": "consistent"
    },
@@ -852,8 +932,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2074-May-04 02:17",
@@ -863,10 +943,10 @@
      "earth_moon_km": 388102.4783764538,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -3.2659984221367875,
-      1.1725508547233001
+      -3.2651421285021165,
+      1.172979001540636
      ],
-     "tau_s": 4.990052110172029,
+     "tau_s": 4.988740438507144,
      "v_inf_from": "stream encounters"
     }
    }
@@ -882,22 +962,22 @@
    },
    "approach_utc": "2078-09-01",
    "approach_jd": 2480277.802955794,
-   "stream_lo_jd": 2480271.65997762,
-   "stream_hi_jd": 2480279.9626689334,
+   "stream_lo_jd": 2480271.6899787663,
+   "stream_hi_jd": 2480279.972288872,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 4947,
+   "n_reach": 5013,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 118.24925567183249,
-   "v_impact_kms": 9.490915611164585,
-   "energy_mt": 0.002920156044619996,
-   "flash_peak_mag": -0.8891571391585729,
+   "v_impact_kms": 9.497056354669613,
+   "energy_mt": 0.002923936023516257,
+   "flash_peak_mag": -0.8900934831826711,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -908,8 +988,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2078-Sep-01 07:16",
@@ -919,10 +999,10 @@
      "earth_moon_km": 376901.094558951,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -4.4737620903943665,
-      0.5368714770560362
+      -4.4751666064305144,
+      0.5361692190379629
      ],
-     "tau_s": 7.090239276919834,
+     "tau_s": 7.0932972640756375,
      "v_inf_from": "stream encounters"
     }
    }
@@ -938,8 +1018,8 @@
    },
    "approach_utc": "2097-12-14",
    "approach_jd": 2487321.943696467,
-   "stream_lo_jd": 2487321.7938790005,
-   "stream_hi_jd": 2487322.0993151767,
+   "stream_lo_jd": 2487321.8114496,
+   "stream_hi_jd": 2487322.115266683,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
@@ -951,9 +1031,9 @@
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 61.05718720332341,
-   "v_impact_kms": 15.836078407164562,
-   "energy_mt": 217.81366490567285,
-   "flash_peak_mag": -8.994919175650477,
+   "v_impact_kms": 15.836526589513165,
+   "energy_mt": 217.82599392031614,
+   "flash_peak_mag": -8.994960145466699,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -964,8 +1044,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2097-Dec-14 10:39",
@@ -975,10 +1055,10 @@
      "earth_moon_km": 379578.2731673987,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -16.640090012693527,
-      -5.5386076165322375
+      -16.640151467417862,
+      -5.538638343894403
      ],
-     "tau_s": 298.46076378726576,
+     "tau_s": 298.4663949884463,
      "v_inf_from": "stream encounters"
     }
    }
@@ -994,22 +1074,22 @@
    },
    "approach_utc": "2104-04-09",
    "approach_jd": 2489628.657864866,
-   "stream_lo_jd": 2489625.260809522,
-   "stream_hi_jd": 2489633.2150853802,
+   "stream_lo_jd": 2489625.4312677486,
+   "stream_hi_jd": 2489633.297054928,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 11290,
+   "n_reach": 11236,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 16.0803390578427,
-   "v_impact_kms": 12.972616316570813,
-   "energy_mt": 8.888837823245472e-05,
-   "flash_peak_mag": 1.8021913089501893,
+   "v_impact_kms": 12.971966819542851,
+   "energy_mt": 8.887947774687377e-05,
+   "flash_peak_mag": 1.8022637898411809,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -1020,8 +1100,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2104-Apr-09 03:47",
@@ -1031,10 +1111,10 @@
      "earth_moon_km": 406421.5514217098,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -0.5186127448481057,
-      2.5963194764460495
+      -0.5185040235116188,
+      2.5963738371142933
      ],
-     "tau_s": 2.213810957744004,
+     "tau_s": 2.213737064881228,
      "v_inf_from": "stream encounters"
     }
    }
@@ -1050,25 +1130,25 @@
    },
    "approach_utc": "2112-11-07",
    "approach_jd": 2492763.254043964,
-   "stream_lo_jd": 2492756.5715193404,
-   "stream_hi_jd": 2492779.0504323975,
+   "stream_lo_jd": 2492758.88086364,
+   "stream_hi_jd": 2492778.2612198973,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 7797,
+   "n_reach": 7832,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 47.69007910995427,
-   "v_impact_kms": 6.699042831432817,
-   "energy_mt": 0.006036918945179819,
-   "flash_peak_mag": -1.3851238180469667,
+   "v_impact_kms": 6.697598244877299,
+   "energy_mt": 0.006034315614561133,
+   "flash_peak_mag": -1.384811612438336,
    "flash_class": "naked-eye",
    "earth_control": {
-    "our_p_hi": 0.0002785503321745113,
+    "our_p_hi": 0.00043830045339363695,
     "sentry_ip": 5.11966555e-05,
     "status": "consistent"
    },
@@ -1076,8 +1156,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2112-Nov-07 18:06",
@@ -1087,10 +1167,10 @@
      "earth_moon_km": 382094.2404605399,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -5.232569840391015,
-      0.17232533372177009
+      -5.232101531978069,
+      0.17255948792824297
      ],
-     "tau_s": 9.03227850148978,
+     "tau_s": 9.030979970002456,
      "v_inf_from": "stream encounters"
     }
    }
@@ -1106,22 +1186,22 @@
    },
    "approach_utc": "2116-07-05",
    "approach_jd": 2494098.975825503,
-   "stream_lo_jd": 2494093.421008245,
-   "stream_hi_jd": 2494105.636915348,
+   "stream_lo_jd": 2494092.67609175,
+   "stream_hi_jd": 2494105.209316552,
    "p": null,
    "p_lo": null,
    "p_hi": 0.0001844269639618992,
    "how": "c",
    "n_imp": 0,
-   "n_reach": 15797,
+   "n_reach": 15889,
    "N": 20000,
    "near_side_frac": null,
    "night_side_frac": null,
    "watchable_frac": null,
    "phase_deg": 115.47392740912267,
-   "v_impact_kms": 5.159858730826672,
-   "energy_mt": 0.023124133005230873,
-   "flash_peak_mag": -2.334042624232691,
+   "v_impact_kms": 5.159945281346231,
+   "energy_mt": 0.023124908771629135,
+   "flash_peak_mag": -2.3340669066144155,
    "flash_class": "naked-eye",
    "earth_control": {
     "our_p_hi": 0.0001844269639618992,
@@ -1132,8 +1212,8 @@
     "no impacting samples: geometry fractions undefined",
     "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
    ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
+   "source": "fresh",
+   "run_id": "20261012-2035Z_ls-geom-rerun",
    "geometry": "computed",
    "extra": {
     "cad_cd": "2116-Jul-05 11:25",
@@ -1143,66 +1223,10 @@
      "earth_moon_km": 386192.1437398176,
      "eta": 0.003752752949370966,
      "peak_mag_range": [
-      -6.667530408121536,
-      -0.5335725916915559
+      -6.667566831694122,
+      -0.533590803477849
      ],
-     "tau_s": 14.132338292075195,
-     "v_inf_from": "stream encounters"
-    }
-   }
-  },
-  {
-   "des": "2018 BL11",
-   "fullname": "(2018 BL11)",
-   "H": 28.2,
-   "d_m": {
-    "a0.05": 13.615700153859295,
-    "a0.14": 8.136937180005665,
-    "a0.25": 6.089126221056746
-   },
-   "approach_utc": "2120-01-23",
-   "approach_jd": 2495396.22954056,
-   "stream_lo_jd": 2495387.737954984,
-   "stream_hi_jd": 2495397.6226469157,
-   "p": null,
-   "p_lo": null,
-   "p_hi": 0.0001844269639618992,
-   "how": "c",
-   "n_imp": 0,
-   "n_reach": 5580,
-   "N": 20000,
-   "near_side_frac": null,
-   "night_side_frac": null,
-   "watchable_frac": null,
-   "phase_deg": 88.93207203765974,
-   "v_impact_kms": 12.675143531109264,
-   "energy_mt": 0.010831674672544866,
-   "flash_peak_mag": -1.8093459244770855,
-   "flash_class": "naked-eye",
-   "earth_control": {
-    "our_p_hi": 0.0002785503321745113,
-    "sentry_ip": 8.862727e-05,
-    "status": "consistent"
-   },
-   "flags": [
-    "no impacting samples: geometry fractions undefined",
-    "stage-2 candidate (n_imp < 10, n_reach >= 20): '< U' is a bound until importance sampling"
-   ],
-   "source": "ingested-sweep",
-   "run_id": "20261011-0111Z_sweep-s1",
-   "geometry": "computed",
-   "extra": {
-    "cad_cd": "2120-Jan-23 17:31",
-    "cad_dist_km": 990991.463308178,
-    "cad_dist_min_km": 9745.166723984894,
-    "flash": {
-     "earth_moon_km": 381902.78400483285,
-     "eta": 0.003752752949370966,
-     "peak_mag_range": [
-      -5.868358832445768,
-      -0.14611332989603115
-     ],
-     "tau_s": 10.975493943068948,
+     "tau_s": 14.132496327125649,
      "v_inf_from": "stream encounters"
     }
    }
@@ -1214,34 +1238,6 @@
    "stream_lo_jd": 2463589.120191269,
    "stream_hi_jd": 2463589.1242957157,
    "n_reach": 20000,
-   "n_imp": 0
-  },
-  {
-   "des": "2007 UD6",
-   "stream_lo_jd": 2469358.8652845137,
-   "stream_hi_jd": 2469368.7366481633,
-   "n_reach": 18293,
-   "n_imp": 0
-  },
-  {
-   "des": "2006 JY26",
-   "stream_lo_jd": 2478690.6108834753,
-   "stream_hi_jd": 2478697.3333618785,
-   "n_reach": 12742,
-   "n_imp": 0
-  },
-  {
-   "des": "2019 EH1",
-   "stream_lo_jd": 2463288.805286364,
-   "stream_hi_jd": 2463298.0760124363,
-   "n_reach": 3026,
-   "n_imp": 5
-  },
-  {
-   "des": "2024 JP17",
-   "stream_lo_jd": 2465549.1547415033,
-   "stream_hi_jd": 2465566.142860795,
-   "n_reach": 10649,
    "n_imp": 0
   },
   {
@@ -1259,41 +1255,6 @@
    "n_imp": 0
   },
   {
-   "des": "2023 VP3",
-   "stream_lo_jd": 2467925.3297193768,
-   "stream_hi_jd": 2467960.843963905,
-   "n_reach": 9132,
-   "n_imp": 3
-  },
-  {
-   "des": "2014 HB177",
-   "stream_lo_jd": 2464086.023467267,
-   "stream_hi_jd": 2464099.5700672604,
-   "n_reach": 11944,
-   "n_imp": 0
-  },
-  {
-   "des": "2022 RL",
-   "stream_lo_jd": 2480271.65997762,
-   "stream_hi_jd": 2480279.9626689334,
-   "n_reach": 4947,
-   "n_imp": 0
-  },
-  {
-   "des": "2016 CE",
-   "stream_lo_jd": 2472032.5343570937,
-   "stream_hi_jd": 2472034.3253722205,
-   "n_reach": 17840,
-   "n_imp": 0
-  },
-  {
-   "des": "2023 BL2",
-   "stream_lo_jd": 2467274.6838265946,
-   "stream_hi_jd": 2467275.886244873,
-   "n_reach": 12051,
-   "n_imp": 0
-  },
-  {
    "des": "2017 XS2",
    "stream_lo_jd": 2516507.8500589663,
    "stream_hi_jd": 2516511.9533830564,
@@ -1308,59 +1269,10 @@
    "n_imp": 0
   },
   {
-   "des": "620100",
-   "stream_lo_jd": 2487321.7938790005,
-   "stream_hi_jd": 2487322.0993151767,
-   "n_reach": 20000,
-   "n_imp": 0
-  },
-  {
-   "des": "2018 BL11",
-   "stream_lo_jd": 2495387.737954984,
-   "stream_hi_jd": 2495397.6226469157,
-   "n_reach": 5580,
-   "n_imp": 0
-  },
-  {
-   "des": "2021 UO1",
-   "stream_lo_jd": 2462433.4396606395,
-   "stream_hi_jd": 2462437.199794211,
-   "n_reach": 5539,
-   "n_imp": 0
-  },
-  {
-   "des": "2019 SX",
-   "stream_lo_jd": 2467511.3209628384,
-   "stream_hi_jd": 2467516.9823623216,
-   "n_reach": 3787,
-   "n_imp": 0
-  },
-  {
    "des": "2020 FL",
    "stream_lo_jd": 2508964.15189294,
    "stream_hi_jd": 2508965.7009919863,
    "n_reach": 5378,
-   "n_imp": 0
-  },
-  {
-   "des": "2022 GQ5",
-   "stream_lo_jd": 2489625.260809522,
-   "stream_hi_jd": 2489633.2150853802,
-   "n_reach": 11290,
-   "n_imp": 0
-  },
-  {
-   "des": "2017 UJ43",
-   "stream_lo_jd": 2492756.5715193404,
-   "stream_hi_jd": 2492779.0504323975,
-   "n_reach": 7797,
-   "n_imp": 0
-  },
-  {
-   "des": "2012 HG2",
-   "stream_lo_jd": 2468751.7587026935,
-   "stream_hi_jd": 2468754.0479625743,
-   "n_reach": 20000,
    "n_imp": 0
   },
   {
@@ -1371,24 +1283,136 @@
    "n_imp": 0
   },
   {
+   "des": "2007 UD6",
+   "stream_lo_jd": 2469359.1619028207,
+   "stream_hi_jd": 2469368.736801647,
+   "n_reach": 18344,
+   "n_imp": 0
+  },
+  {
+   "des": "2006 JY26",
+   "stream_lo_jd": 2478690.604812454,
+   "stream_hi_jd": 2478697.3607916236,
+   "n_reach": 12634,
+   "n_imp": 0
+  },
+  {
+   "des": "2019 EH1",
+   "stream_lo_jd": 2463288.757352159,
+   "stream_hi_jd": 2463298.032431713,
+   "n_reach": 3122,
+   "n_imp": 1
+  },
+  {
+   "des": "2024 JP17",
+   "stream_lo_jd": 2465551.285187267,
+   "stream_hi_jd": 2465567.048832748,
+   "n_reach": 10564,
+   "n_imp": 0
+  },
+  {
+   "des": "2023 VP3",
+   "stream_lo_jd": 2467925.324027181,
+   "stream_hi_jd": 2467966.7056168905,
+   "n_reach": 9064,
+   "n_imp": 5
+  },
+  {
+   "des": "2014 HB177",
+   "stream_lo_jd": 2464086.3768690093,
+   "stream_hi_jd": 2464101.5463330066,
+   "n_reach": 11984,
+   "n_imp": 0
+  },
+  {
+   "des": "2022 RL",
+   "stream_lo_jd": 2480271.6899787663,
+   "stream_hi_jd": 2480279.972288872,
+   "n_reach": 5013,
+   "n_imp": 0
+  },
+  {
+   "des": "2016 CE",
+   "stream_lo_jd": 2472032.396869992,
+   "stream_hi_jd": 2472034.305353294,
+   "n_reach": 17808,
+   "n_imp": 0
+  },
+  {
+   "des": "2023 BL2",
+   "stream_lo_jd": 2467274.686635745,
+   "stream_hi_jd": 2467275.887376798,
+   "n_reach": 12038,
+   "n_imp": 0
+  },
+  {
+   "des": "620100",
+   "stream_lo_jd": 2487321.8114496,
+   "stream_hi_jd": 2487322.115266683,
+   "n_reach": 20000,
+   "n_imp": 0
+  },
+  {
+   "des": "2018 BL11",
+   "stream_lo_jd": 2495387.74413554,
+   "stream_hi_jd": 2495401.17993446,
+   "n_reach": 5609,
+   "n_imp": 2
+  },
+  {
+   "des": "2021 UO1",
+   "stream_lo_jd": 2462433.4083868084,
+   "stream_hi_jd": 2462436.998240214,
+   "n_reach": 5520,
+   "n_imp": 0
+  },
+  {
+   "des": "2019 SX",
+   "stream_lo_jd": 2467511.173892044,
+   "stream_hi_jd": 2467517.006325819,
+   "n_reach": 3714,
+   "n_imp": 0
+  },
+  {
+   "des": "2022 GQ5",
+   "stream_lo_jd": 2489625.4312677486,
+   "stream_hi_jd": 2489633.297054928,
+   "n_reach": 11236,
+   "n_imp": 0
+  },
+  {
+   "des": "2017 UJ43",
+   "stream_lo_jd": 2492758.88086364,
+   "stream_hi_jd": 2492778.2612198973,
+   "n_reach": 7832,
+   "n_imp": 0
+  },
+  {
+   "des": "2012 HG2",
+   "stream_lo_jd": 2468751.902730797,
+   "stream_hi_jd": 2468754.0473223478,
+   "n_reach": 20000,
+   "n_imp": 0
+  },
+  {
    "des": "2020 KS",
-   "stream_lo_jd": 2470871.304060136,
-   "stream_hi_jd": 2470872.063741342,
+   "stream_lo_jd": 2470871.2902073883,
+   "stream_hi_jd": 2470872.0781199574,
    "n_reach": 20000,
    "n_imp": 0
   },
   {
    "des": "2023 NG1",
-   "stream_lo_jd": 2494093.421008245,
-   "stream_hi_jd": 2494105.636915348,
-   "n_reach": 15797,
+   "stream_lo_jd": 2494092.67609175,
+   "stream_hi_jd": 2494105.209316552,
+   "n_reach": 15889,
    "n_imp": 0
   },
   {
    "des": "2021 XV",
-   "stream_lo_jd": 2468312.96583809,
-   "stream_hi_jd": 2468317.5406424934,
-   "n_reach": 2649,
+   "stream_lo_jd": 2468312.9056972633,
+   "stream_hi_jd": 2468317.775219732,
+   "n_reach": 2539,
    "n_imp": 0
   }
  ],

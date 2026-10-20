@@ -37,7 +37,7 @@ More sections will be added as other jobs in the project produce public, gated r
 ## Status
 
 <!-- LAST-UPDATED -->
-**Last updated:** 2026-10-19 13:17:18 UTC (automatic daily run; the files below are regenerated from the research repository).
+**Last updated:** 2026-10-20 13:17:16 UTC (automatic daily run; the files below are regenerated from the research repository).
 Site created 10/12/2026. Lunar Sentry: v0 table, gate PASS (2024 YR4 reproduced; see the page header). Moon Watch: v1.1 forecast,
 gate A PASS / gate B INCOMPLETE — **forecast not fully validated**; v1.2 (per-program detection efficiency) is being built and the
 November 2026 Taurids windows will be the first pre-published, scored forecasts.

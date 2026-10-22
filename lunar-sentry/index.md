@@ -1,14 +1,14 @@
 ---
 title: Lunar Sentry
 description: Which known asteroids could hit the Moon in the next 100 years, with computed impact chances and flash brightness.
-last_generated: "2026-10-21T13:15:47Z"
+last_generated: "2026-10-22T13:15:48Z"
 ---
 
 # Lunar Sentry - which known asteroids could hit the Moon (v0)
 
 **In plain English.** NASA's Sentry lists the chance that each known asteroid hits Earth. Nobody publishes the same list for the Moon. This table is that list: every known asteroid that passes close enough to the Moon in the next 100 years for an impact to be possible, with our computed chance and, if it did hit, how bright the flash would look from Earth. Almost every chance here is an upper limit ('< U'), meaning the computation found no impact and can only say the chance is smaller than U.
 
-Generated 2026-10-21 13:15:47 UTC. Dates are UTC calendar dates of the approach.
+Generated 2026-10-22 13:15:48 UTC. Dates are UTC calendar dates of the approach.
 
 | Object | D est (m) | Approach (UTC) | P (Moon) | 95% interval | Watchable | Flash | Earth control | Flags |
 |---|---|---|---|---|---|---|---|---|

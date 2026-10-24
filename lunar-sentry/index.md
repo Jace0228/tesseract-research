@@ -1,7 +1,7 @@
 ---
 title: Lunar Sentry
 description: Which known asteroids could hit the Moon in the next 100 years, with computed impact chances and flash brightness.
-last_generated: "2026-10-23T13:15:48Z"
+last_generated: "2026-10-24T13:15:41Z"
 ---
 
 # Lunar Sentry - which known asteroids could hit the Moon (v0)
@@ -10,7 +10,7 @@ last_generated: "2026-10-23T13:15:48Z"
 
 **The blind gate (10/11/2026): passed on a 0-vs-0 result.** Before this table was published, the pipeline had to reproduce NASA's own number for 2024 YR4 hitting the Moon on 2032-12-22 without being told it. NASA's newest figure is 0 (lunar impact ruled out, 3/5/2026); our count was 0 impacts in 20,000 sampled orbits (95% upper bound 0.000192). Because a pipeline that could never find an impact would also score 0, a match of zeros alone was not accepted: the pass also required reproducing NASA's stated 21,200 km miss from the lunar surface, which we got as 21,232 km (0.15% off). The same code matched the Earth-impact pipeline field for field and survived a kill-and-resume test with identical results. The first time a nonzero chance of any asteroid hitting the Moon is published, the gate is re-run against it before that object is quoted here.
 
-Generated 2026-10-23 13:15:48 UTC. Dates are UTC calendar dates of the approach.
+Generated 2026-10-24 13:15:41 UTC. Dates are UTC calendar dates of the approach.
 
 | Object | D est (m) | Approach (UTC) | P (Moon) | 95% interval | Watchable | Flash | Earth control | Flags |
 |---|---|---|---|---|---|---|---|---|

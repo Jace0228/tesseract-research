@@ -4,25 +4,8 @@ PRODID:-//ResearchJobs//Moon Watch v1.2//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Moon Watch
 BEGIN:VEVENT
-UID:ORI-20261018@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
-DTSTART:20261018T000000Z
-DTEND:20261018T160000Z
-SUMMARY:Moon Watch: Orionids (minor shower) window
-DESCRIPTION:Dark west (leading) limb\, waxing Moon 44-50% lit. Expected fla
- shes/h at best hour 2026-10-18T15:00 UTC: 30-40 cm 0.69/h (90 %: 0.29-1.66
- )\; 20 cm 0.30/h (90 %: 0.07-1.22)\; 10 cm 0.10/h (90 %: 0.03-0.43). Gate:
-  A PASS\, B INCOMPLETE (not fully validated). Computed by AI build threads
-  (v1: Claude Opus 5.5\; v1.1 data verification: Claude Sonnet 5.5\; v1.2 p
- er-program model: Claude Opus 5.5\, v1.2 sigma and publication: Claude Son
- net 5.5\, with specs and rulings by Claude Fable 5.1\; Anthropic) for Jona
- than Carroll's ResearchJobs project\; the model\, data and gate are in the
-  repository. Not reviewed by a lunar-impact specialist. Expected rates are
-  model estimates\, not observations.
-END:VEVENT
-BEGIN:VEVENT
 UID:STA-20261101@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20261101T210000Z
 DTEND:20261106T040000Z
 SUMMARY:Moon Watch: Southern Taurids (minor shower) window
@@ -39,7 +22,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:LEO-20261112@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20261112T140000Z
 DTEND:20261117T120000Z
 SUMMARY:Moon Watch: Leonids (minor shower) window
@@ -56,7 +39,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20261201@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20261201T070000Z
 DTEND:20261205T190000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -73,7 +56,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:GEM-20261212@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20261212T110000Z
 DTEND:20261217T060000Z
 SUMMARY:Moon Watch: Geminids window (prime)
@@ -90,7 +73,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:QUA-20261230@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20261230T200000Z
 DTEND:20270104T120000Z
 SUMMARY:Moon Watch: Quadrantids window (prime)
@@ -107,7 +90,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270111@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270111T060000Z
 DTEND:20270115T210000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -124,7 +107,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270129@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270129T120000Z
 DTEND:20270203T070000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -141,7 +124,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270209@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270209T230000Z
 DTEND:20270214T080000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -158,7 +141,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270228@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270228T060000Z
 DTEND:20270305T030000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -175,7 +158,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270311@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270311T120000Z
 DTEND:20270315T170000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -192,7 +175,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270330@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270330T020000Z
 DTEND:20270403T220000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -209,7 +192,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270409@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270409T210000Z
 DTEND:20270413T230000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -226,7 +209,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270428@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270428T210000Z
 DTEND:20270503T140000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -243,7 +226,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:ETA-20270509@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270509T050000Z
 DTEND:20270513T050000Z
 SUMMARY:Moon Watch: eta Aquariids window (prime)
@@ -260,7 +243,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270528@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270528T150000Z
 DTEND:20270602T030000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -277,7 +260,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270607@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270607T120000Z
 DTEND:20270611T110000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -294,7 +277,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270627@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270627T060000Z
 DTEND:20270701T120000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -311,7 +294,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270706@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270706T180000Z
 DTEND:20270710T190000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -328,7 +311,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SDA-20270726@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270726T180000Z
 DTEND:20270730T200000Z
 SUMMARY:Moon Watch: Southern delta Aquariids (minor shower) window
@@ -345,7 +328,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SDA-20270805@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270805T010000Z
 DTEND:20270809T050000Z
 SUMMARY:Moon Watch: Southern delta Aquariids (minor shower) window
@@ -362,7 +345,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270825@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270825T030000Z
 DTEND:20270829T030000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -379,7 +362,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270903@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270903T100000Z
 DTEND:20270907T190000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -396,7 +379,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20270923@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20270923T110000Z
 DTEND:20270927T110000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -413,7 +396,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:SPO-20271002@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20271002T220000Z
 DTEND:20271007T120000Z
 SUMMARY:Moon Watch: Sporadic window
@@ -430,7 +413,7 @@ DESCRIPTION:Dark west (leading) limb\, waxing Moon 10-50% lit. Expected fla
 END:VEVENT
 BEGIN:VEVENT
 UID:ORI-20271022@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20271022T180000Z
 DTEND:20271026T190000Z
 SUMMARY:Moon Watch: Orionids (minor shower) window
@@ -447,7 +430,7 @@ DESCRIPTION:Dark east (trailing) limb\, waning Moon 10-50% lit. Expected fl
 END:VEVENT
 BEGIN:VEVENT
 UID:STA-20271101@moon-watch.researchjobs
-DTSTAMP:20261026T131712Z
+DTSTAMP:20261027T131645Z
 DTSTART:20271101T130000Z
 DTEND:20271106T080000Z
 SUMMARY:Moon Watch: Southern Taurids (minor shower) window

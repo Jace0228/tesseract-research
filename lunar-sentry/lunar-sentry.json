@@ -1,6 +1,6 @@
 {
  "schema": "lunar-sentry/1",
- "generated_utc": "2026-10-27T13:15:46Z",
+ "generated_utc": "2026-10-28T18:04:20Z",
  "gate_status": "PASS",
  "gate_note": "zero-reference case (gate amendment 1, 6:36 PM ET): 0 of 20,000 vs NASA 0, AND the stated 21,200 km miss reproduced to 0.15 % (21,232 km). Probability recovery rests on the Asteroids Earth gate (4/5 within x3 of Sentry) + sweep bar 1 on the Moon + bar 2 here. No nonzero lunar reference exists yet; the first one published is a mandatory re-gate before it is quoted. 6 approach(es) beyond the 100-year horizon are in the run results, not tabled (v0).",
  "method": "For every asteroid whose JPL close-approach table (CAD) puts its 3-sigma lunar miss distance within 10 effective lunar radii in the next 100 years, 20,000 orbits are drawn from the JPL Small-Body Database covariance and propagated with ASSIST/REBOUND (DE440 planets and 16 large asteroids). An impact is a sample whose Moon-centred two-body perigee is below 1737.4 km. A probability is quoted only when at least 10 samples hit (with its 95% Wilson interval); otherwise only an upper bound '< U' (95% Clopper-Pearson) is given, never a point estimate. Earth is propagated with the same samples as a control against JPL Sentry. Impact sites come from each impacting sample's hyperbola; flash brightness is a model calibrated once on the 2013-09-11 lunar flash.",

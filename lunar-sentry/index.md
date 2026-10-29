@@ -1,7 +1,7 @@
 ---
 title: Lunar Sentry
 description: Which known asteroids could hit the Moon in the next 100 years, with computed impact chances and flash brightness.
-last_generated: "2026-10-28T18:04:20Z"
+last_generated: "2026-10-29T13:15:54Z"
 ---
 
 # Lunar Sentry - which known asteroids could hit the Moon (v0)
@@ -10,14 +10,13 @@ last_generated: "2026-10-28T18:04:20Z"
 
 **The blind gate (10/11/2026): passed on a 0-vs-0 result.** Before this table was published, the pipeline had to reproduce NASA's own number for 2024 YR4 hitting the Moon on 2032-12-22 without being told it. NASA's newest figure is 0 (lunar impact ruled out, 3/5/2026); our count was 0 impacts in 20,000 sampled orbits (95% upper bound 0.000192). Because a pipeline that could never find an impact would also score 0, a match of zeros alone was not accepted: the pass also required reproducing NASA's stated 21,200 km miss from the lunar surface, which we got as 21,232 km (0.15% off). The same code matched the Earth-impact pipeline field for field and survived a kill-and-resume test with identical results. The first time a nonzero chance of any asteroid hitting the Moon is published, the gate is re-run against it before that object is quoted here.
 
-Generated 2026-10-28 18:04:20 UTC. Dates are UTC calendar dates of the approach.
+Generated 2026-10-29 13:15:54 UTC. Dates are UTC calendar dates of the approach.
 
 | Object | D est (m) | Approach (UTC) | P (Moon) | 95% interval | Watchable | Flash | Earth control | Flags |
 |---|---|---|---|---|---|---|---|---|
-| 2018 PZ21 | 16 (12-27) | 2119-07-30 | 0.00055 | 0.000307-0.000985 | 0% | naked-eye (-2.5 mag) | consistent |  |
-| 2023 VP3 | 4 (3-8) | 2044-11-09 | < 0.000583 | 0-0.000583 | 0% | naked-eye (0.1 mag) | consistent | stage-2 candidate (n_imp < 10, n_reach >= 20) |
-| 2018 BL11 | 8 (6-14) | 2120-01-23 | < 0.000361 | 0-0.000361 | 0% | naked-eye (-1.8 mag) | consistent | stage-2 candidate (n_imp < 10, n_reach >= 20) |
-| 2019 EH1 | 3 (3-6) | 2032-02-29 | < 0.000279 | 0-0.000279 | 0% | naked-eye (0.0 mag) | consistent | stage-2 candidate (n_imp < 10, n_reach >= 20) |
+| 2018 PZ21 | 16 (12-27) | 2119-07-30 | 0.00065 | 0.00038-0.00111 | pending | naked-eye (-2.5 mag) | consistent | geometry pending re-run (ingested units carry no perigee state) |
+| 2019 EH1 | 3 (3-6) | 2032-02-29 | < 0.000583 | 0-0.000583 | pending | naked-eye (0.0 mag) | consistent | geometry pending re-run (ingested units carry no perigee state); stage-2 candidate (n_imp < 10, n_reach >= 20) |
+| 2023 VP3 | 4 (3-8) | 2044-11-09 | < 0.000438 | 0-0.000438 | pending | naked-eye (0.1 mag) | consistent | geometry pending re-run (ingested units carry no perigee state); stage-2 candidate (n_imp < 10, n_reach >= 20) |
 | 2021 UO1 | 9 (7-15) | 2029-10-25 | < 0.000184 | 0-0.000184 | - | naked-eye (-2.5 mag) | consistent | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
 | 2024 YR4 | 58 (44-97) | 2032-12-22 | < 0.000184 | 0-0.000184 | - | naked-eye (-6.1 mag) | not on Sentry | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20); gate object |
 | 2014 HB177 | 9 (6-14) | 2034-05-05 | < 0.000184 | 0-0.000184 | - | naked-eye (-0.7 mag) | consistent | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
@@ -35,10 +34,11 @@ Generated 2026-10-28 18:04:20 UTC. Dates are UTC calendar dates of the approach.
 | 2022 GQ5 | 2 (1-3) | 2104-04-09 | < 0.000184 | 0-0.000184 | - | naked-eye (1.8 mag) | not on Sentry | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
 | 2017 UJ43 | 10 (8-17) | 2112-11-07 | < 0.000184 | 0-0.000184 | - | naked-eye (-1.4 mag) | consistent | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
 | 2023 NG1 | 19 (14-32) | 2116-07-05 | < 0.000184 | 0-0.000184 | - | naked-eye (-2.3 mag) | consistent | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
+| 2018 BL11 | 8 (6-14) | 2120-01-23 | < 0.000184 | 0-0.000184 | - | naked-eye (-1.8 mag) | consistent | no impacting samples; stage-2 candidate (n_imp < 10, n_reach >= 20) |
 
 **Method.** For every asteroid whose JPL close-approach table (CAD) puts its 3-sigma lunar miss distance within 10 effective lunar radii in the next 100 years, 20,000 orbits are drawn from the JPL Small-Body Database covariance and propagated with ASSIST/REBOUND (DE440 planets and 16 large asteroids). An impact is a sample whose Moon-centred two-body perigee is below 1737.4 km. A probability is quoted only when at least 10 samples hit (with its 95% Wilson interval); otherwise only an upper bound '< U' (95% Clopper-Pearson) is given, never a point estimate. Earth is propagated with the same samples as a control against JPL Sentry. Impact sites come from each impacting sample's hyperbola; flash brightness is a model calibrated once on the 2013-09-11 lunar flash.
 
-**Runs.** 20261011-2208Z_ls-gate (gate, 1 objects), 20261011-2212Z_ls-v0 (table, 26 objects), 20261012-2035Z_ls-geom-rerun (table, 20 objects)
+**Runs.** 20261011-2208Z_ls-gate (gate, 1 objects), 20261011-2212Z_ls-v0 (table, 26 objects)
 
 **Stage-2 candidates** (streams where importance sampling could turn a bound into a number): 26.
 

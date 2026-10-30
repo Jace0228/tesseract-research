@@ -1,6 +1,6 @@
 {
  "schema": "moon-watch/1",
- "generated_utc": "2026-10-29T13:17:02Z",
+ "generated_utc": "2026-10-30T13:17:21Z",
  "gate": {
   "A": "PASS",
   "B": "INCOMPLETE",
@@ -23048,6 +23048,303 @@
        "end_utc": "2027-11-05T21:45:00Z",
        "local": "Fri 11/05 20:30-23:45 SAST",
        "hours": 3.25
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SPO-20271121",
+   "title": "Sporadic window",
+   "prime": false,
+   "shower_enhanced": false,
+   "start_utc": "2027-11-21T02:00:00Z",
+   "end_utc": "2027-11-21T16:00:00Z",
+   "peak_utc": "2027-11-21T15:00:00Z",
+   "illum_range": [
+    0.434,
+    0.496
+   ],
+   "illum_at_peak": 0.434,
+   "phase": "waning",
+   "dark_limb": "east (trailing)",
+   "solar_lon_at_peak": 238.67,
+   "g_dark_at_peak": 0.271,
+   "showers": [
+    {
+     "code": "NTA",
+     "name": "Northern Taurids",
+     "profile_at_peak": 0.595,
+     "f_obs": 0.553,
+     "sub_radiant_lat_lon": [
+      3.1,
+      86.0
+     ],
+     "k": 0.293,
+     "calibration": "tied to STA (Taurid complex)"
+    }
+   ],
+   "rates_at_peak": {
+    "30-40cm": {
+     "eff": 0.9673,
+     "sigma_ln": 0.772,
+     "rate_per_h": 0.2,
+     "band90": [
+      0.056,
+      0.713
+     ],
+     "sporadic_per_h": 0.107,
+     "by_shower_per_h": {
+      "NTA": 0.093
+     },
+     "extrapolated": false
+    },
+    "20cm": {
+     "eff": 0.4179,
+     "sigma_ln": 1.021,
+     "rate_per_h": 0.087,
+     "band90": [
+      0.016,
+      0.464
+     ],
+     "sporadic_per_h": 0.046,
+     "by_shower_per_h": {
+      "NTA": 0.04
+     },
+     "extrapolated": false
+    },
+    "10cm": {
+     "eff": 0.1477,
+     "sigma_ln": 1.021,
+     "rate_per_h": 0.031,
+     "band90": [
+      0.006,
+      0.164
+     ],
+     "sporadic_per_h": 0.016,
+     "by_shower_per_h": {
+      "NTA": 0.014
+     },
+     "extrapolated": true
+    }
+   },
+   "sigma_ln": 0.771,
+   "hourly_ref": [
+    [
+     "2027-11-21T02:00:00Z",
+     0.1902,
+     0.7715
+    ],
+    [
+     "2027-11-21T03:00:00Z",
+     0.1917,
+     0.7715
+    ],
+    [
+     "2027-11-21T04:00:00Z",
+     0.1935,
+     0.7715
+    ],
+    [
+     "2027-11-21T05:00:00Z",
+     0.1949,
+     0.7714
+    ],
+    [
+     "2027-11-21T06:00:00Z",
+     0.1959,
+     0.7713
+    ],
+    [
+     "2027-11-21T07:00:00Z",
+     0.1973,
+     0.7713
+    ],
+    [
+     "2027-11-21T08:00:00Z",
+     0.1985,
+     0.7712
+    ],
+    [
+     "2027-11-21T09:00:00Z",
+     0.1998,
+     0.7711
+    ],
+    [
+     "2027-11-21T10:00:00Z",
+     0.201,
+     0.7711
+    ],
+    [
+     "2027-11-21T11:00:00Z",
+     0.2024,
+     0.7711
+    ],
+    [
+     "2027-11-21T12:00:00Z",
+     0.2037,
+     0.771
+    ],
+    [
+     "2027-11-21T13:00:00Z",
+     0.2051,
+     0.771
+    ],
+    [
+     "2027-11-21T14:00:00Z",
+     0.2062,
+     0.7709
+    ],
+    [
+     "2027-11-21T15:00:00Z",
+     0.2073,
+     0.7708
+    ]
+   ],
+   "sites": [
+    {
+     "site": "New York",
+     "lat": 40.71,
+     "lon": -74.01,
+     "tz": "America/New_York",
+     "hours": 4.5,
+     "expected_flashes_30_40cm": 0.87,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T06:30:00Z",
+       "end_utc": "2027-11-21T11:00:00Z",
+       "local": "Sun 11/21 01:30-06:00 EST",
+       "hours": 4.5
+      }
+     ]
+    },
+    {
+     "site": "Chicago",
+     "lat": 41.88,
+     "lon": -87.63,
+     "tz": "America/Chicago",
+     "hours": 4.25,
+     "expected_flashes_30_40cm": 0.82,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T07:30:00Z",
+       "end_utc": "2027-11-21T11:45:00Z",
+       "local": "Sun 11/21 01:30-05:45 CST",
+       "hours": 4.25
+      }
+     ]
+    },
+    {
+     "site": "Los Angeles",
+     "lat": 34.05,
+     "lon": -118.24,
+     "tz": "America/Los_Angeles",
+     "hours": 4.0,
+     "expected_flashes_30_40cm": 0.79,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T09:45:00Z",
+       "end_utc": "2027-11-21T13:45:00Z",
+       "local": "Sun 11/21 01:45-05:45 PST",
+       "hours": 4.0
+      }
+     ]
+    },
+    {
+     "site": "London",
+     "lat": 51.51,
+     "lon": -0.13,
+     "tz": "Europe/London",
+     "hours": 4.25,
+     "expected_flashes_30_40cm": 0.79,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T02:00:00Z",
+       "end_utc": "2027-11-21T06:15:00Z",
+       "local": "Sun 11/21 02:00-06:15 GMT",
+       "hours": 4.25
+      }
+     ]
+    },
+    {
+     "site": "Madrid",
+     "lat": 40.42,
+     "lon": -3.7,
+     "tz": "Europe/Madrid",
+     "hours": 4.25,
+     "expected_flashes_30_40cm": 0.79,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T02:00:00Z",
+       "end_utc": "2027-11-21T06:15:00Z",
+       "local": "Sun 11/21 03:00-07:15 CET",
+       "hours": 4.25
+      }
+     ]
+    },
+    {
+     "site": "Athens",
+     "lat": 37.98,
+     "lon": 23.73,
+     "tz": "Europe/Athens",
+     "hours": 2.25,
+     "expected_flashes_30_40cm": 0.42,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T02:00:00Z",
+       "end_utc": "2027-11-21T04:15:00Z",
+       "local": "Sun 11/21 04:00-06:15 EET",
+       "hours": 2.25
+      }
+     ]
+    },
+    {
+     "site": "Tokyo",
+     "lat": 35.68,
+     "lon": 139.69,
+     "tz": "Asia/Tokyo",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Sydney",
+     "lat": -33.87,
+     "lon": 151.21,
+     "tz": "Australia/Sydney",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Sao Paulo",
+     "lat": -23.55,
+     "lon": -46.63,
+     "tz": "America/Sao_Paulo",
+     "hours": 2.25,
+     "expected_flashes_30_40cm": 0.43,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T05:15:00Z",
+       "end_utc": "2027-11-21T07:30:00Z",
+       "local": "Sun 11/21 02:15-04:30 -03",
+       "hours": 2.25
+      }
+     ]
+    },
+    {
+     "site": "Cape Town",
+     "lat": -33.92,
+     "lon": 18.42,
+     "tz": "Africa/Johannesburg",
+     "hours": 0.5,
+     "expected_flashes_30_40cm": 0.09,
+     "nights": [
+      {
+       "start_utc": "2027-11-21T02:00:00Z",
+       "end_utc": "2027-11-21T02:30:00Z",
+       "local": "Sun 11/21 04:00-04:30 SAST",
+       "hours": 0.5
       }
      ]
     }

@@ -1,12 +1,12 @@
 ---
 title: Moon Watch
 description: When to watch the Moon for meteoroid impact flashes and how many to expect, per city and telescope size.
-last_generated: "2026-10-30T13:17:21Z"
+last_generated: "2026-10-31T13:17:16Z"
 ---
 
 # Moon Watch — when to watch the Moon for meteoroid impact flashes, and how many to expect
 
-_Generated 2026-10-30 13:17 UTC. Gate: geometry PASS, v1.1 back-test INCOMPLETE, **v1.2 out-of-sample gate: INCOMPLETE (awaiting the November windows)** — **forecast not fully validated**: v1.2 (10/12/2026): the model now fits one detection efficiency per observing program (NASA, MIDAS, UEC, NELIOTA, TILT, LUMIO) and uses LUMIO's 10 overlapping hours, not its 60 pooled hours. The v1.2 gate is out-of-sample: three windows (Taurids 11/1-6 and 11/12-17/2026, Geminids 12/13-14/2026) were frozen in public/scoreboard.json before they happen, and are scored only on third-party reports; the v1.2 badge stays INCOMPLETE until at least one is scored. The log-normal sigma is one value for all terms, estimated out of sample from the leave-one-program-out residuals (the shower/sporadic split is not identifiable with 30 sessions) and floored at 0.5, so the bands are wide. v1.1 summary: v1.1 re-ran the gate with fetched data. Bar A: all 12 statements pass, including 7 measured from the TUM Geminids-2025 and Lyrids-2026 map images (lit fraction and night-side impact-capable fraction within 0.10, lit side exact); the maps' orientation is not stated, so sub-radiant angles were NOT scored. Bar B: 26 of 26 scorable hold-out sessions are inside their 90 % interval and pooled observed/expected is 220/208.8 = 1.05, but the log-normal sigma of the fit is 1.36 (bands about x9 wide each way; 11 of the passes are zero-count nights), the Geminid sessions are over-forecast (LUMIO 17 vs 99) and the sporadic background is under-forecast x4.7 against NELIOTA (145 vs 31): the pooled ratio is a cancellation. Banner kept pending review._
+_Generated 2026-10-31 13:17 UTC. Gate: geometry PASS, v1.1 back-test INCOMPLETE, **v1.2 out-of-sample gate: INCOMPLETE (awaiting the November windows)** — **forecast not fully validated**: v1.2 (10/12/2026): the model now fits one detection efficiency per observing program (NASA, MIDAS, UEC, NELIOTA, TILT, LUMIO) and uses LUMIO's 10 overlapping hours, not its 60 pooled hours. The v1.2 gate is out-of-sample: three windows (Taurids 11/1-6 and 11/12-17/2026, Geminids 12/13-14/2026) were frozen in public/scoreboard.json before they happen, and are scored only on third-party reports; the v1.2 badge stays INCOMPLETE until at least one is scored. The log-normal sigma is one value for all terms, estimated out of sample from the leave-one-program-out residuals (the shower/sporadic split is not identifiable with 30 sessions) and floored at 0.5, so the bands are wide. v1.1 summary: v1.1 re-ran the gate with fetched data. Bar A: all 12 statements pass, including 7 measured from the TUM Geminids-2025 and Lyrids-2026 map images (lit fraction and night-side impact-capable fraction within 0.10, lit side exact); the maps' orientation is not stated, so sub-radiant angles were NOT scored. Bar B: 26 of 26 scorable hold-out sessions are inside their 90 % interval and pooled observed/expected is 220/208.8 = 1.05, but the log-normal sigma of the fit is 1.36 (bands about x9 wide each way; 11 of the passes are zero-count nights), the Geminid sessions are over-forecast (LUMIO 17 vs 99) and the sporadic background is under-forecast x4.7 against NELIOTA (145 vs 31): the pooled ratio is a cancellation. Banner kept pending review._
 
 ## Next prime window: Geminids window
 
@@ -59,7 +59,7 @@ _Generated 2026-10-30 13:17 UTC. Gate: geometry PASS, v1.1 back-test INCOMPLETE,
 | Sporadic window | 2027-10-02 22 → 2027-10-07 12 | 10-50 % | west (leading) | 0.20/h (90 %: 0.05-0.85) | 0.09/h (90 %: 0.01-0.53) | 0.03/h (90 %: 0.01-0.19) |
 | Orionids (minor shower) window | 2027-10-22 18 → 2027-10-26 19 | 10-50 % | east (trailing) | 0.59/h (90 %: 0.24-1.47) | 0.26/h (90 %: 0.06-1.06) | 0.09/h (90 %: 0.02-0.38) |
 | Southern Taurids (minor shower) window | 2027-11-01 13 → 2027-11-06 08 | 10-50 % | west (leading) | 0.62/h (90 %: 0.19-2.08) | 0.27/h (90 %: 0.05-1.37) | 0.10/h (90 %: 0.02-0.48) |
-| Sporadic window | 2027-11-21 02 → 2027-11-21 16 | 43-50 % | east (trailing) | 0.20/h (90 %: 0.06-0.71) | 0.09/h (90 %: 0.02-0.46) | 0.03/h (90 %: 0.01-0.16) |
+| Sporadic window | 2027-11-21 02 → 2027-11-22 16 | 32-50 % | east (trailing) | 0.23/h (90 %: 0.07-0.81) | 0.10/h (90 %: 0.02-0.53) | 0.04/h (90 %: 0.01-0.19) |
 
 ## Pre-published windows (out-of-sample scoring)
 

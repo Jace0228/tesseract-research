@@ -1,6 +1,6 @@
 {
  "schema": "moon-watch/1",
- "generated_utc": "2026-11-01T14:17:16Z",
+ "generated_utc": "2026-11-02T14:17:16Z",
  "gate": {
   "A": "PASS",
   "B": "INCOMPLETE",
@@ -23059,26 +23059,26 @@
    "prime": false,
    "shower_enhanced": false,
    "start_utc": "2027-11-21T02:00:00Z",
-   "end_utc": "2027-11-23T16:00:00Z",
-   "peak_utc": "2027-11-23T15:00:00Z",
+   "end_utc": "2027-11-24T16:00:00Z",
+   "peak_utc": "2027-11-24T15:00:00Z",
    "illum_range": [
-    0.225,
+    0.14,
     0.496
    ],
-   "illum_at_peak": 0.225,
+   "illum_at_peak": 0.14,
    "phase": "waning",
    "dark_limb": "east (trailing)",
-   "solar_lon_at_peak": 240.69,
-   "g_dark_at_peak": 0.343,
+   "solar_lon_at_peak": 241.7,
+   "g_dark_at_peak": 0.378,
    "showers": [
     {
      "code": "NTA",
      "name": "Northern Taurids",
-     "profile_at_peak": 0.527,
-     "f_obs": 0.787,
+     "profile_at_peak": 0.496,
+     "f_obs": 0.877,
      "sub_radiant_lat_lon": [
-      3.1,
-      58.7
+      3.2,
+      45.2
      ],
      "k": 0.293,
      "calibration": "tied to STA (Taurid complex)"
@@ -23086,11 +23086,11 @@
     {
      "code": "LEO",
      "name": "Leonids",
-     "profile_at_peak": 0.008,
-     "f_obs": 0.116,
+     "profile_at_peak": 0.003,
+     "f_obs": 0.2,
      "sub_radiant_lat_lon": [
       9.3,
-      146.4
+      133.1
      ],
      "k": 1.697,
      "calibration": "provisional (no lunar calibration), x3 band"
@@ -23099,51 +23099,51 @@
    "rates_at_peak": {
     "30-40cm": {
      "eff": 0.9673,
-     "sigma_ln": 0.767,
-     "rate_per_h": 0.255,
+     "sigma_ln": 0.77,
+     "rate_per_h": 0.274,
      "band90": [
-      0.072,
-      0.901
+      0.077,
+      0.975
      ],
-     "sporadic_per_h": 0.136,
+     "sporadic_per_h": 0.15,
      "by_shower_per_h": {
-      "NTA": 0.117,
+      "NTA": 0.123,
       "LEO": 0.001
      },
      "extrapolated": false
     },
     "20cm": {
      "eff": 0.4179,
-     "sigma_ln": 1.017,
-     "rate_per_h": 0.11,
+     "sigma_ln": 1.02,
+     "rate_per_h": 0.119,
      "band90": [
-      0.021,
-      0.587
+      0.022,
+      0.634
      ],
-     "sporadic_per_h": 0.059,
+     "sporadic_per_h": 0.065,
      "by_shower_per_h": {
-      "NTA": 0.051,
-      "LEO": 0.001
+      "NTA": 0.053,
+      "LEO": 0.0
      },
      "extrapolated": false
     },
     "10cm": {
      "eff": 0.1477,
-     "sigma_ln": 1.017,
-     "rate_per_h": 0.039,
+     "sigma_ln": 1.02,
+     "rate_per_h": 0.042,
      "band90": [
-      0.007,
-      0.208
+      0.008,
+      0.224
      ],
-     "sporadic_per_h": 0.021,
+     "sporadic_per_h": 0.023,
      "by_shower_per_h": {
-      "NTA": 0.018,
+      "NTA": 0.019,
       "LEO": 0.0
      },
      "extrapolated": true
     }
    },
-   "sigma_ln": 0.767,
+   "sigma_ln": 0.77,
    "hourly_ref": [
     [
      "2027-11-21T02:00:00Z",
@@ -23454,6 +23454,126 @@
      "2027-11-23T15:00:00Z",
      0.2637,
      0.7666
+    ],
+    [
+     "2027-11-23T16:00:00Z",
+     0.2643,
+     0.7667
+    ],
+    [
+     "2027-11-23T17:00:00Z",
+     0.2652,
+     0.7668
+    ],
+    [
+     "2027-11-23T18:00:00Z",
+     0.266,
+     0.7669
+    ],
+    [
+     "2027-11-23T19:00:00Z",
+     0.2672,
+     0.767
+    ],
+    [
+     "2027-11-23T20:00:00Z",
+     0.2683,
+     0.7672
+    ],
+    [
+     "2027-11-23T21:00:00Z",
+     0.2692,
+     0.7673
+    ],
+    [
+     "2027-11-23T22:00:00Z",
+     0.2697,
+     0.7674
+    ],
+    [
+     "2027-11-23T23:00:00Z",
+     0.2707,
+     0.7675
+    ],
+    [
+     "2027-11-24T00:00:00Z",
+     0.2715,
+     0.7676
+    ],
+    [
+     "2027-11-24T01:00:00Z",
+     0.2723,
+     0.7677
+    ],
+    [
+     "2027-11-24T02:00:00Z",
+     0.2732,
+     0.7679
+    ],
+    [
+     "2027-11-24T03:00:00Z",
+     0.2741,
+     0.768
+    ],
+    [
+     "2027-11-24T04:00:00Z",
+     0.275,
+     0.7682
+    ],
+    [
+     "2027-11-24T05:00:00Z",
+     0.2759,
+     0.7683
+    ],
+    [
+     "2027-11-24T06:00:00Z",
+     0.2767,
+     0.7684
+    ],
+    [
+     "2027-11-24T07:00:00Z",
+     0.2772,
+     0.7685
+    ],
+    [
+     "2027-11-24T08:00:00Z",
+     0.2782,
+     0.7687
+    ],
+    [
+     "2027-11-24T09:00:00Z",
+     0.2791,
+     0.7688
+    ],
+    [
+     "2027-11-24T10:00:00Z",
+     0.2798,
+     0.769
+    ],
+    [
+     "2027-11-24T11:00:00Z",
+     0.281,
+     0.7692
+    ],
+    [
+     "2027-11-24T12:00:00Z",
+     0.2817,
+     0.7693
+    ],
+    [
+     "2027-11-24T13:00:00Z",
+     0.2823,
+     0.7694
+    ],
+    [
+     "2027-11-24T14:00:00Z",
+     0.283,
+     0.7696
+    ],
+    [
+     "2027-11-24T15:00:00Z",
+     0.2837,
+     0.7697
     ]
    ],
    "sites": [
@@ -23462,8 +23582,8 @@
      "lat": 40.71,
      "lon": -74.01,
      "tz": "America/New_York",
-     "hours": 9.75,
-     "expected_flashes_30_40cm": 2.1,
+     "hours": 10.5,
+     "expected_flashes_30_40cm": 2.3,
      "nights": [
       {
        "start_utc": "2027-11-21T06:30:00Z",
@@ -23482,6 +23602,12 @@
        "end_utc": "2027-11-23T11:00:00Z",
        "local": "Tue 11/23 04:00-06:00 EST",
        "hours": 2.0
+      },
+      {
+       "start_utc": "2027-11-24T10:15:00Z",
+       "end_utc": "2027-11-24T11:00:00Z",
+       "local": "Wed 11/24 05:15-06:00 EST",
+       "hours": 0.75
       }
      ]
     },
@@ -23490,8 +23616,8 @@
      "lat": 41.88,
      "lon": -87.63,
      "tz": "America/Chicago",
-     "hours": 9.0,
-     "expected_flashes_30_40cm": 1.94,
+     "hours": 9.5,
+     "expected_flashes_30_40cm": 2.08,
      "nights": [
       {
        "start_utc": "2027-11-21T07:30:00Z",
@@ -23510,6 +23636,12 @@
        "end_utc": "2027-11-23T11:45:00Z",
        "local": "Tue 11/23 04:00-05:45 CST",
        "hours": 1.75
+      },
+      {
+       "start_utc": "2027-11-24T11:30:00Z",
+       "end_utc": "2027-11-24T12:00:00Z",
+       "local": "Wed 11/24 05:30-06:00 CST",
+       "hours": 0.5
       }
      ]
     },
@@ -23518,8 +23650,8 @@
      "lat": 34.05,
      "lon": -118.24,
      "tz": "America/Los_Angeles",
-     "hours": 8.75,
-     "expected_flashes_30_40cm": 1.91,
+     "hours": 9.5,
+     "expected_flashes_30_40cm": 2.12,
      "nights": [
       {
        "start_utc": "2027-11-21T09:45:00Z",
@@ -23538,6 +23670,12 @@
        "end_utc": "2027-11-23T13:45:00Z",
        "local": "Tue 11/23 04:00-05:45 PST",
        "hours": 1.75
+      },
+      {
+       "start_utc": "2027-11-24T13:00:00Z",
+       "end_utc": "2027-11-24T13:45:00Z",
+       "local": "Wed 11/24 05:00-05:45 PST",
+       "hours": 0.75
       }
      ]
     },
@@ -23574,8 +23712,8 @@
      "lat": 40.42,
      "lon": -3.7,
      "tz": "Europe/Madrid",
-     "hours": 10.0,
-     "expected_flashes_30_40cm": 2.12,
+     "hours": 10.75,
+     "expected_flashes_30_40cm": 2.32,
      "nights": [
       {
        "start_utc": "2027-11-21T02:00:00Z",
@@ -23594,6 +23732,12 @@
        "end_utc": "2027-11-23T06:15:00Z",
        "local": "Tue 11/23 05:00-07:15 CET",
        "hours": 2.25
+      },
+      {
+       "start_utc": "2027-11-24T05:30:00Z",
+       "end_utc": "2027-11-24T06:15:00Z",
+       "local": "Wed 11/24 06:30-07:15 CET",
+       "hours": 0.75
       }
      ]
     },
@@ -23602,8 +23746,8 @@
      "lat": 37.98,
      "lon": 23.73,
      "tz": "Europe/Athens",
-     "hours": 7.75,
-     "expected_flashes_30_40cm": 1.67,
+     "hours": 8.75,
+     "expected_flashes_30_40cm": 1.94,
      "nights": [
       {
        "start_utc": "2027-11-21T02:00:00Z",
@@ -23622,6 +23766,12 @@
        "end_utc": "2027-11-23T04:15:00Z",
        "local": "Tue 11/23 04:00-06:15 EET",
        "hours": 2.25
+      },
+      {
+       "start_utc": "2027-11-24T03:15:00Z",
+       "end_utc": "2027-11-24T04:15:00Z",
+       "local": "Wed 11/24 05:15-06:15 EET",
+       "hours": 1.0
       }
      ]
     },
@@ -23630,8 +23780,8 @@
      "lat": 35.68,
      "lon": 139.69,
      "tz": "Asia/Tokyo",
-     "hours": 6.25,
-     "expected_flashes_30_40cm": 1.36,
+     "hours": 7.75,
+     "expected_flashes_30_40cm": 1.75,
      "nights": [
       {
        "start_utc": "2027-11-21T16:45:00Z",
@@ -23644,6 +23794,12 @@
        "end_utc": "2027-11-22T20:30:00Z",
        "local": "Tue 11/23 03:00-05:30 JST",
        "hours": 2.5
+      },
+      {
+       "start_utc": "2027-11-23T19:00:00Z",
+       "end_utc": "2027-11-23T20:30:00Z",
+       "local": "Wed 11/24 04:00-05:30 JST",
+       "hours": 1.5
       }
      ]
     },
@@ -23652,8 +23808,8 @@
      "lat": -33.87,
      "lon": 151.21,
      "tz": "Australia/Sydney",
-     "hours": 2.0,
-     "expected_flashes_30_40cm": 0.43,
+     "hours": 2.25,
+     "expected_flashes_30_40cm": 0.49,
      "nights": [
       {
        "start_utc": "2027-11-21T16:30:00Z",
@@ -23666,6 +23822,12 @@
        "end_utc": "2027-11-22T17:45:00Z",
        "local": "Tue 11/23 04:00-04:45 AEDT",
        "hours": 0.75
+      },
+      {
+       "start_utc": "2027-11-23T17:30:00Z",
+       "end_utc": "2027-11-23T17:45:00Z",
+       "local": "Wed 11/24 04:30-04:45 AEDT",
+       "hours": 0.25
       }
      ]
     },
@@ -23674,8 +23836,8 @@
      "lat": -23.55,
      "lon": -46.63,
      "tz": "America/Sao_Paulo",
-     "hours": 5.0,
-     "expected_flashes_30_40cm": 1.06,
+     "hours": 5.5,
+     "expected_flashes_30_40cm": 1.2,
      "nights": [
       {
        "start_utc": "2027-11-21T05:15:00Z",
@@ -23694,6 +23856,12 @@
        "end_utc": "2027-11-23T07:30:00Z",
        "local": "Tue 11/23 03:30-04:30 -03",
        "hours": 1.0
+      },
+      {
+       "start_utc": "2027-11-24T07:00:00Z",
+       "end_utc": "2027-11-24T07:30:00Z",
+       "local": "Wed 11/24 04:00-04:30 -03",
+       "hours": 0.5
       }
      ]
     },

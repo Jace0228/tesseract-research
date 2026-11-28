@@ -1,6 +1,6 @@
 {
  "schema": "moon-watch/1",
- "generated_utc": "2026-11-27T14:16:49Z",
+ "generated_utc": "2026-11-28T14:16:50Z",
  "gate": {
   "A": "PASS",
   "B": "INCOMPLETE",
@@ -23036,6 +23036,250 @@
        "hours": 2.25
       }
      ]
+    }
+   ]
+  },
+  {
+   "id": "SPO-20271220",
+   "title": "Sporadic window",
+   "prime": false,
+   "shower_enhanced": false,
+   "start_utc": "2027-12-20T10:00:00Z",
+   "end_utc": "2027-12-20T16:00:00Z",
+   "peak_utc": "2027-12-20T15:00:00Z",
+   "illum_range": [
+    0.474,
+    0.497
+   ],
+   "illum_at_peak": 0.474,
+   "phase": "waning",
+   "dark_limb": "east (trailing)",
+   "solar_lon_at_peak": 268.09,
+   "g_dark_at_peak": 0.258,
+   "showers": [
+    {
+     "code": "GEM",
+     "name": "Geminids",
+     "profile_at_peak": 0.0,
+     "f_obs": 0.354,
+     "sub_radiant_lat_lon": [
+      11.6,
+      113.1
+     ],
+     "k": 4.153,
+     "calibration": "calibrated"
+    },
+    {
+     "code": "URS",
+     "name": "Ursids",
+     "profile_at_peak": 0.026,
+     "f_obs": 0.279,
+     "sub_radiant_lat_lon": [
+      72.5,
+      139.6
+     ],
+     "k": 0.243,
+     "calibration": "provisional (no lunar calibration), x3 band"
+    }
+   ],
+   "rates_at_peak": {
+    "30-40cm": {
+     "eff": 0.9673,
+     "sigma_ln": 1.07,
+     "rate_per_h": 0.104,
+     "band90": [
+      0.018,
+      0.606
+     ],
+     "sporadic_per_h": 0.102,
+     "by_shower_per_h": {
+      "GEM": 0.0,
+      "URS": 0.002
+     },
+     "extrapolated": false
+    },
+    "20cm": {
+     "eff": 0.4179,
+     "sigma_ln": 1.261,
+     "rate_per_h": 0.045,
+     "band90": [
+      0.006,
+      0.358
+     ],
+     "sporadic_per_h": 0.044,
+     "by_shower_per_h": {
+      "GEM": 0.0,
+      "URS": 0.001
+     },
+     "extrapolated": false
+    },
+    "10cm": {
+     "eff": 0.1477,
+     "sigma_ln": 1.261,
+     "rate_per_h": 0.016,
+     "band90": [
+      0.002,
+      0.127
+     ],
+     "sporadic_per_h": 0.016,
+     "by_shower_per_h": {
+      "GEM": 0.0,
+      "URS": 0.0
+     },
+     "extrapolated": true
+    }
+   },
+   "sigma_ln": 1.069,
+   "hourly_ref": [
+    [
+     "2027-12-20T10:00:00Z",
+     0.1042,
+     1.0734
+    ],
+    [
+     "2027-12-20T11:00:00Z",
+     0.1049,
+     1.0726
+    ],
+    [
+     "2027-12-20T12:00:00Z",
+     0.1057,
+     1.0718
+    ],
+    [
+     "2027-12-20T13:00:00Z",
+     0.1064,
+     1.071
+    ],
+    [
+     "2027-12-20T14:00:00Z",
+     0.107,
+     1.0701
+    ],
+    [
+     "2027-12-20T15:00:00Z",
+     0.1078,
+     1.0691
+    ]
+   ],
+   "sites": [
+    {
+     "site": "New York",
+     "lat": 40.71,
+     "lon": -74.01,
+     "tz": "America/New_York",
+     "hours": 1.25,
+     "expected_flashes_30_40cm": 0.13,
+     "nights": [
+      {
+       "start_utc": "2027-12-20T10:00:00Z",
+       "end_utc": "2027-12-20T11:15:00Z",
+       "local": "Mon 12/20 05:00-06:15 EST",
+       "hours": 1.25
+      }
+     ]
+    },
+    {
+     "site": "Chicago",
+     "lat": 41.88,
+     "lon": -87.63,
+     "tz": "America/Chicago",
+     "hours": 2.25,
+     "expected_flashes_30_40cm": 0.23,
+     "nights": [
+      {
+       "start_utc": "2027-12-20T10:00:00Z",
+       "end_utc": "2027-12-20T12:15:00Z",
+       "local": "Mon 12/20 04:00-06:15 CST",
+       "hours": 2.25
+      }
+     ]
+    },
+    {
+     "site": "Los Angeles",
+     "lat": 34.05,
+     "lon": -118.24,
+     "tz": "America/Los_Angeles",
+     "hours": 4.0,
+     "expected_flashes_30_40cm": 0.41,
+     "nights": [
+      {
+       "start_utc": "2027-12-20T10:00:00Z",
+       "end_utc": "2027-12-20T14:00:00Z",
+       "local": "Mon 12/20 02:00-06:00 PST",
+       "hours": 4.0
+      }
+     ]
+    },
+    {
+     "site": "London",
+     "lat": 51.51,
+     "lon": -0.13,
+     "tz": "Europe/London",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Madrid",
+     "lat": 40.42,
+     "lon": -3.7,
+     "tz": "Europe/Madrid",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Athens",
+     "lat": 37.98,
+     "lon": 23.73,
+     "tz": "Europe/Athens",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Tokyo",
+     "lat": 35.68,
+     "lon": 139.69,
+     "tz": "Asia/Tokyo",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Sydney",
+     "lat": -33.87,
+     "lon": 151.21,
+     "tz": "Australia/Sydney",
+     "hours": 0.5,
+     "expected_flashes_30_40cm": 0.05,
+     "nights": [
+      {
+       "start_utc": "2027-12-20T15:30:00Z",
+       "end_utc": "2027-12-20T16:00:00Z",
+       "local": "Tue 12/21 02:30-03:00 AEDT",
+       "hours": 0.5
+      }
+     ]
+    },
+    {
+     "site": "Sao Paulo",
+     "lat": -23.55,
+     "lon": -46.63,
+     "tz": "America/Sao_Paulo",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
+    },
+    {
+     "site": "Cape Town",
+     "lat": -33.92,
+     "lon": 18.42,
+     "tz": "Africa/Johannesburg",
+     "hours": 0.0,
+     "expected_flashes_30_40cm": 0.0,
+     "nights": []
     }
    ]
   }
